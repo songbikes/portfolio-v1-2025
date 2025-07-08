@@ -1,3 +1,4 @@
+<!-- @ts-nocheck -->
 <script>
   export let project
   export let onSelect

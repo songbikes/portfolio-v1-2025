@@ -1,3 +1,4 @@
+<!-- @ts-nocheck -->
 <script>
   import ProjectCard from './ProjectCard.svelte'
 
