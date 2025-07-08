@@ -630,7 +630,7 @@
 
   .scroll-container {
     width: 100%;
-    height: 301px; /* 改為300px，給hover放大卡片足夠空間 */
+    height: 300px; /* 改為300px，給hover放大卡片足夠空間 */
     overflow-x: auto;
     overflow-y: visible; /* 關鍵：允許卡片向上延伸不被切掉 */
     cursor: grab;

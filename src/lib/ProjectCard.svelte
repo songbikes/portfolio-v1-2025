@@ -39,7 +39,7 @@
     width: 240px;
     height: 240px;
     background: white;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.4, 2, 0.6, 1);
     flex-shrink: 0;
@@ -61,7 +61,7 @@
   .project-image {
     width: 100%;
     height: 160px;
-    background: #f5f5f5;
+    background: var(--grey-50);
     overflow: hidden;
   }
 
@@ -76,7 +76,7 @@
   }
 
   .project-info {
-    padding: 16px;
+    padding: 1rem;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@
 
   h3 {
     margin: 0 0 8px 0;
-    font-size: 16px;
+    font-size: 1rem;
     color: #333;
     font-weight: 600;
   }
