@@ -1,7 +1,11 @@
 <!-- @ts-nocheck -->
 <script>
   import ProjectCard from './ProjectCard.svelte'
-  import './LazyImg.js';
+  import { imageUrls } from './UXNoteImageURL.js';
+  import '../airnz.scss';
+  import '../aboutme.css';
+  import '../uxnotes.css';
+  import '../digihi.css';
   
   export let projects = []
   
@@ -168,6 +172,15 @@ let selectedProjectId = null
     }
   }
 
+// 產生每排最多4張
+const UXNotes = `
+  <div class="UXSection">
+    <div class="UXNotes">
+      ${imageUrls.map(url => `<img src="${url}" loading="lazy" draggable="false" />`).join('')}
+    </div>
+  </div>
+`;
+
   // 範例專案資料 - 使用HTML內容以便完全自由編輯
   const defaultProjects = [
     {
@@ -175,12 +188,12 @@ let selectedProjectId = null
       title: 'digiHi',
       description: 'Event driven tech & startup platform',
       tech: 'Figma, Next.js, Tailwind, Convex, Stripe, Clerk',
-      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9Mm59vq4IfuUjg3Oyt4ZxvpsCKAde0wmRShFl',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9vi5kVcTHbjBL8eOS9FpXnM5CGJDVyqQkZfso',
       demoUrl: 'https://digihi.io',
       // githubUrl: 'https://github.com',
       htmlContent: `
         <div class="custom-content di-base">
-          <h1 class="hero">A PLATFORM FOR THE TECH AND STARTUP COMMUNITIES TO CONNECT EASIER.</h1>
+          <h1 class="hero">WHERE THE TECH AND STARTUP PEOPLE TO SHINE.</h1>
           
           <div class="di-hero-wrapper">
             <div class="di-hero-text">
@@ -235,10 +248,10 @@ let selectedProjectId = null
     },
     {
       id: 'project-b',
-      title: 'Dacreed',
-      description: 'Professional Development Platform',
+      title: 'MacroActive',
+      description: 'Design Challenge - Retention & Engagement',
       tech: 'Figma',
-      image: 'https://via.placeholder.com/240x160/ff3e00/ffffff?text=Social+App',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9ZtNIvdEhcNbi3ptFv0UHqy6Lxa1hoC5B4fPm',
       // demoUrl: 'https://example.com',
       // githubUrl: 'https://github.com',
       htmlContent: `
@@ -251,26 +264,27 @@ let selectedProjectId = null
     },
     {
       id: 'project-c',
-      title: 'Asobi',
-      description: 'An Interior Design Company Website',
-      tech: 'Figma, Next.js, Tailwind, Convex',
-      image: 'https://via.placeholder.com/240x160/42b883/ffffff?text=Task+Manager',
-      demoUrl: 'https://asobi.tw',
+      title: 'Dacreed',
+      description: 'Professional Development Platform',
+      tech: 'Figma',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9VlCXU5DZK8MN6L24SBxf1eahlQdu9wJOTHGy',
+      // demoUrl: 'https://example.com',
       // githubUrl: 'https://github.com',
       htmlContent: `
         <div class="custom-content">
-          <h1>Asobi</h1>
+          <h1>Dacreed</h1>
           <h1>Placeholder</h1>
           <img src="https://placehold.co/600x400" alt="Asobi Interior Design" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 20px;">
         </div>
       `
     },
+
     {
-      id: 'project-d',
+      id: 'project-e',
       title: 'Trade Me',
       description: 'Feature Exercise - Compare Listings',
       tech: 'Figma',
-      image: 'https://via.placeholder.com/240x160/f7931e/ffffff?text=AI+Generator',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF99oQaH7Fiso6r4wZNfEplMyUeb1vOa2LDnVxc',
       demoUrl: 'https://example.com',
       // githubUrl: 'https://github.com',
       htmlContent: `
@@ -282,50 +296,138 @@ let selectedProjectId = null
       `
     },
     {
-      id: 'project-e',
+      id: 'project-f',
       title: 'Air NZ',
       description: 'UI Exercise - Redesign mobile app',
       tech: 'Figma',
-      image: 'https://via.placeholder.com/240x160/61dafb/ffffff?text=Banking+App',
-      // demoUrl: 'https://example.com',
-      // githubUrl: 'https://github.com',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9aXX34KC7Ad6yWHS3cjPgwJf1Tt2uob0LDxiF',
+ 
       htmlContent: `
-        <div class="custom-content">
-          <h1>Air NZ</h1>
-          <h1>Placeholder</h1>
-          <img src="https://placehold.co/600x400" alt="Asobi Interior Design" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 20px;">
-        </div>
-      `
-    },
-    {
-      id: 'project-f',
-      title: 'UX Design Notes',
-      description: 'I need notes to help me remember stuff',
-      tech: 'Figma, Pen',
-      image: 'https://via.placeholder.com/240x160/8b5cf6/ffffff?text=Blockchain',
-      // demoUrl: 'https://example.com',
-      // githubUrl: 'https://github.com',
-      htmlContent: `
-        <div class="custom-content">
-          <h1>UX Notes</h1>
-          <h1>Placeholder</h1>
-          <img src="https://placehold.co/600x400" alt="Asobi Interior Design" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 20px;">
+        <div class="AirNZContainer">
+          <h1>UI & USER FLOW REVISION EXERCISE</h1>
+          
+          <video class="AirNZVideo" controls controlsList="nodownload nofullscreen noremoteplayback">
+            <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9kah9UDCh4TPYHUfIwknrimsoezySMpZ319d5" type="video/mp4"
+            autoplay muted loop
+            >
+          </video>
         </div>
       `
     },
     {
       id: 'project-g',
-      title: 'Song',
+      title: 'UX Notes',
+      description: 'I need notes to help me remember stuff',
+      tech: 'Figma, Pen',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9mlsnTLKktpLuPXUHeqEs48z6Yyc1DIbSQhZB',
+      // demoUrl: 'https://example.com',
+      // githubUrl: 'https://github.com',
+      htmlContent: UXNotes
+    },
+    {
+      id: 'project-d',
+      title: 'Asobi',
+      description: 'My Interior Design Portfolio Website',
+      tech: 'Figma, Next.js, Tailwind, Convex',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9QISWSmYEfjk7F2w3AruKIUzcPbe60gnmZ5oR',
+      demoUrl: 'https://asobi.tw',
+      // githubUrl: 'https://github.com',
+      htmlContent: `
+        <div class="custom-content">
+          <h1>Asobi</h1>
+          <h1>Placeholder</h1>
+          <img src="https://placehold.co/600x400" alt="Asobi Interior Design" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 20px;">
+        </div>
+      `
+    },
+    {
+      id: 'project-h',
+      title: 'About Me',
       description: 'Hiya!',
       tech: 'Pizza, Music, Burger, Pets',
-      image: 'https://via.placeholder.com/240x160/10b981/ffffff?text=Data+Viz',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD',
       demoUrl: 'https://example.com',
       githubUrl: 'https://github.com',
       htmlContent: `
-        <div class="custom-content">
-          <h1>About me</h1>
-          <h1>Placeholder</h1>
-          <img src="https://placehold.co/600x400" alt="Asobi Interior Design" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 20px;">
+        <div class="AboutMeSection">
+          <div class="resume-container">
+            <header class="resume-header">
+              <h1 class="name">Song-Yi Feng</h1>
+              <p class="title">Product Designer</p>
+              <a href="https://www.linkedin.com/in/songyifeng/" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+                <svg viewBox="0 0 24 24" class="linkedin-icon">
+                  <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
+                </svg>
+              </a>
+            </header>
+            
+            <section class="about-section">
+              <h2>About</h2>
+              <p class="about-text">Hi there! I am pizza and burger lover, and the guy who built and designed digiHi, a platform for the tech and startup people. I am building other new stuff atm as I am passionate about building products. I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS and Lucide mostly, still pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset. Contact me if you want to work with me or if you want me work for you. Cheers Have a great day!</p>
+            </section>
+            
+            <section class="experience-section">
+              <h2>Experience</h2>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">Aug.2024<br>Present</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Product Designer/Founder <span class="company">@ digiHi</span></h3>
+                    <p>Designed and built digiHi from scratch based on some conversation in a few startup events and lens of observation</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">May.2024<br>Aug.2024</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Contract UX/UI Designer <span class="company">@ Dacreed</span></h3>
+                    <p>Refactored information architecture and user flow and features of the Professional Development Platform. Redesigned the UI, colour selections and layout</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">Jan.2020 -<br>April.2024</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Architectural Technician <span class="company">@ Assemble</span></h3>
+                    <p>BC & RC architecture documentation and code compliance.</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">Aug.2019 -<br>2021.May</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Assistant Tutor <span class="company">@ Unitec</span></h3>
+                    <p>Assisted with lecturers and students to be successful</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">2008 - 2017</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Founder / Interior Designer <span class="company">@ Asobi</span></h3>
+                    <p>Excelled in commercial, residential interior design projects. Click ASOBI to check out my interior design stuff there</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="aboutMeFooter">
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
+              <video class="aboutMeVideo" controls controlsList="nodownload nofullscreen noremoteplayback">
+                <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95SmFOOeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" type="video/mp4">
+              </video>
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
+            </div>
+          </div>
         </div>
       `
     }
@@ -347,6 +449,7 @@ let selectedProjectId = null
       on:mouseleave={handleContentMouseLeave}
       on:mouseup={handleContentMouseUp}
       on:mousemove={handleContentMouseMove}
+      on:scroll={handleContentScroll}
     >
       <div class="content-slides">
         {#each displayProjects as project, index (project.id)}
@@ -399,7 +502,6 @@ let selectedProjectId = null
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #f5f5f5;
     position: relative;
   }
 
@@ -468,7 +570,7 @@ let selectedProjectId = null
 
   .content-inner {
     width: auto; /* 移除 max-width 限制 */
-		min-width: 100vw;
+    min-width: 100vw;
     height: 100%;
     overflow-y: auto;
     padding: 0; /* 完全移除padding，讓內容填滿整個區域 */
@@ -484,6 +586,8 @@ let selectedProjectId = null
     height: 100%;
     /* 恢復預設選取 */
   }
+
+
 
   // .content-inner :global(.custom-content h1) {
   //   font-size: 2.5rem;
@@ -574,103 +678,5 @@ let selectedProjectId = null
   .scroll-container::-webkit-scrollbar {
     display: none;
   }
-
-/* digihi styling */
-:global(.di-base){
-  display: flex;
-  align-items: end;
-  // background-color: aquamarine;
-}
-
-:global(.hero){
-  font-size: clamp(3rem, 10vw, 8rem);
-  color: var(--grey-100);
-  background-color: var(--digihi-blue);
-  height: auto;
-  width: 880px;
-  line-height: 0.8;
-  display: block;
-  margin-top: auto;
-  padding: 3rem 1rem;
-  z-index: 1;
-}
-
-:global(.di-hero-wrapper){
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-color: var(--grey-900);
-}
-
-:global(.di-hero-wrapper h5){
-  width: 950px;
-  font-size: 2rem;
-  text-align: center;
-  line-height: 0.9;
-  position:absolute;
-  bottom:0;
-  color:var(--grey-800);
-  display: block;
-  // margin-bottom: 0;
-  // padding: 0 1rem;
-  // z-index: 0;
-}
-
-:global(.di-hero-text){
-  display: flex;
-  position: relative;
-  align-items: center;
-  // background-color: var(--grey-900);
-  height: 100vh;
-  z-index: 1;
-}
-
-:global(.di-hero-text .hero-text-group){
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position:relative;
-  top: -20%;
-  border: 1px solid var(--grey-800);
-  border-top: none;
-  border-bottom: none;
-
-  &:first-of-type {
-    border-left: none;
-  }
-  &:last-of-type {
-    border-right: none;
-  }
-  padding: 0 1rem;
-}
-
-:global(.di-hero-text p){
-  width: 400px;
-  text-align: center;
-  font-size: 2rem;
-  // background-color: var(--grey-900);
-  color: var(--grey-100);
-  font-weight: 500;
-
-}
-
-:global(.di-hero-text ul){
-  display: block;
-  font-size: 1rem;
-  color: var(--grey-500);
-  max-width: 500px;
-}
-
-:global(.di-img-1){
-  position: absolute;
-  top: 0;
-  width:500px
-}
 
 </style>
