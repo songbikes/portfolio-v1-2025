@@ -468,6 +468,7 @@ let selectedProjectId = null
 
   .content-inner {
     width: auto; /* 移除 max-width 限制 */
+		min-width: 100vw;
     height: 100%;
     overflow-y: auto;
     padding: 0; /* 完全移除padding，讓內容填滿整個區域 */
