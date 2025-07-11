@@ -2,10 +2,10 @@
 <script>
   import ProjectCard from './ProjectCard.svelte'
   import { imageUrls } from './UXNoteImageURL.js';
-  import '../airnz.scss';
-  import '../aboutme.css';
-  import '../uxnotes.css';
-  import '../digihi.css';
+  import '../styles/airnz.scss';
+  import '../styles/aboutme.css';
+  import '../styles/uxnotes.css';
+  import '../styles/digihi.css';
   
   export let projects = []
   
@@ -363,7 +363,9 @@ const UXNotes = `
             
             <section class="about-section">
               <h2>About</h2>
-              <p class="about-text">Hi there! I am pizza and burger lover, and the guy who built and designed digiHi, a platform for the tech and startup people. I am building other new stuff atm as I am passionate about building products. I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS and Lucide mostly, still pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset. Contact me if you want to work with me or if you want me work for you. Cheers Have a great day!</p>
+              <p class="about-text">Hi there! I am pizza and burger lover, and the guy who built and designed digiHi, a platform for the tech and startup people. I am building other new stuff atm as I am passionate about building products. Contact me if you want to work with me or if you want me work for you. Cheers Have a great day!</p><br/>
+              <p class="about-text"> Otherwise, I just shifted my career from architecture to product design in 2024 both are about collaboration and listening and communication and creativity and usability and user-centric design (Well, architecture is more complex tbh). These skills makes me proud of myself.</p><br/>
+              <p class="about-text">I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS and Lucide mostly, still pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset. </p>
             </section>
             
             <section class="experience-section">
@@ -374,7 +376,7 @@ const UXNotes = `
                     <span class="date-range">Aug.2024<br>Present</span>
                   </div>
                   <div class="timeline-content">
-                    <h3>Product Designer/Founder <span class="company">@ digiHi</span></h3>
+                    <h3>Product Designer / Founder <span class="company">@ digiHi</span></h3>
                     <p>Designed and built digiHi from scratch based on some conversation in a few startup events and lens of observation</p>
                   </div>
                 </div>
