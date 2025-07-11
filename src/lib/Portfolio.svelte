@@ -6,6 +6,7 @@
   import '../styles/aboutme.css';
   import '../styles/uxnotes.css';
   import '../styles/digihi.css';
+  import '../styles/asobi.scss';
   
   export let projects = []
   
@@ -306,9 +307,8 @@ const UXNotes = `
         <div class="AirNZContainer">
           <h1>UI & USER FLOW REVISION EXERCISE</h1>
           
-          <video class="AirNZVideo" controls controlsList="nodownload nofullscreen noremoteplayback">
+          <video class="AirNZVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
             <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9kah9UDCh4TPYHUfIwknrimsoezySMpZ319d5" type="video/mp4"
-            autoplay muted loop
             >
           </video>
         </div>
@@ -333,11 +333,35 @@ const UXNotes = `
       demoUrl: 'https://asobi.tw',
       // githubUrl: 'https://github.com',
       htmlContent: `
-        <div class="custom-content">
-          <h1>Asobi</h1>
-          <h1>Placeholder</h1>
-          <img src="https://placehold.co/600x400" alt="Asobi Interior Design" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 20px;">
+      <div class="asobiContainer">
+        <h1>Asobi was my humble interior design company, and I built a website for it.</h1>
+        <div class="designReasoning">
+          <div class="designReasoningContent">
+            <h2>Reasoning my design!</h2>
+            <p>I didn't organise my photos very well and am not good at taking photos hence there are many facinating nor heaps of photos to illustrate an image showing I am a cool designer. So, I need to figure out a way to display my works and the content doesn't seem to be too little. As well as considering responsiveness design and using my preferred dark theme making it easier with my eyes.</p>
+            <a href="https://asobi.tw" target="_blank" rel="noopener noreferrer">
+              <button class="viewWebsiteButton">Visit Website</button>
+            </a>
+            <hr/>
+            <div class="tech-icons">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" />
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9hdE5Y9PiTknVi2zXWZ1ByA6cbdDq4h537sHR" alt="Convex" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SCSS" />
+              <img class="figma" src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9n41tdTcD3RIOQ6ljPp0fUmZYFs5zEyhJoVCM" alt="Figma" />
+            </div>
+          </div>
         </div>
+        <video class="asobiVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
+          <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PpgUXvsMEwKYURTVvWXpNklMISGh156nfABO" type="video/mp4"
+          >
+        </video>
+        <div class="designReasoning">
+          <div class="designReasoningContent">
+            <h2>Things to improve!</h2>
+            <p>Image optimisation before upload interms of sizes, quality, etc, and I should have taken more photos back then...</p>
+          </div>
+        </div>
+      </div>
       `
     },
     {
@@ -424,7 +448,7 @@ const UXNotes = `
             </section>
             <div class="aboutMeFooter">
               <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
-              <video class="aboutMeVideo" controls controlsList="nodownload nofullscreen noremoteplayback">
+              <video class="aboutMeVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
                 <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95SmFOOeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" type="video/mp4">
               </video>
               <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
