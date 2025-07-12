@@ -187,6 +187,7 @@ const UXNotes = `
 
   // 範例專案資料 - 使用HTML內容以便完全自由編輯
   const defaultProjects = [
+    // digihi
     {
       id: 'project-a',
       title: 'digiHi',
@@ -249,6 +250,7 @@ const UXNotes = `
         
       `
     },
+    // macroactive
     {
       id: 'project-b',
       title: 'MacroActive',
@@ -265,6 +267,7 @@ const UXNotes = `
         </div>
       `
     },
+    // dacreed
     {
       id: 'project-c',
       title: 'Dacreed',
@@ -281,26 +284,40 @@ const UXNotes = `
         </div>
       `
     },
-
+    // asobi
     {
-      id: 'project-e',
-      title: 'Trade Me',
-      description: 'Feature Exercise - Compare Listings',
-      tech: 'Figma',
-      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF99oQaH7Fiso6r4wZNfEplMyUeb1vOa2LDnVxc',
-      demoUrl: 'https://example.com',
+      id: 'project-d',
+      title: 'Asobi',
+      description: 'My Interior Design Portfolio Website',
+      tech: 'Figma, Next.js, Tailwind, Convex',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9QISWSmYEfjk7F2w3AruKIUzcPbe60gnmZ5oR',
+      demoUrl: 'https://asobi.tw',
       // githubUrl: 'https://github.com',
       htmlContent: `
-        <div class="trademeContanier">
-          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9fF8kgFampb2Icui3Bo6thfyzgaNnRdUOxHW5" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false"
-          class="kiwibird"
-          >
-
+      <div class="asobiContainer">
+        <h1>ASOBI WAS MY LITTLE INTERIOR DESIGN COMPANY REPRESENTS SPATIAL WORKS</h1>
+        <div class="designReasoning">
+          <div class="designReasoningContent">
+            <h2>Reasoning my design!</h2>
+            <p>The mission is to figure out a way to display my works and the content doesn't seem to be too little. Because I didn't organise my photos very well and am not good at taking photos hence there are not many facinating nor heaps of photos to illustrate an image showing I am a cool designer, I have a great business. Responsiveness design is another key consideraion and using my preferred dark theme making it easier with my eyes same as 99% of my own stuff.</p>
+            <p>So I decided to centralise everything and leave a huge white space and have a special nav panel on the bottom right corner giving navigation a bit of fun</p>
+            <a href="https://asobi.tw" target="_blank" rel="noopener noreferrer">
+              <button class="viewWebsiteButton">Visit Website</button>
+            </a>
           
-          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9upYyKhwt4jNavY6SPXCcoW0lknfLxR9Fw2Qp" alt="Trade Me listing card checked compare" loading="lazy" draggable="false">
-          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95OELPHueoRNUDBwuAnqspY6J0jyXVIb9aOdP" alt="Trade Me listing card unchecked compare" loading="lazy" draggable="false">
-          <h1>Trade Me</h1>
           </div>
+        </div>
+        <video class="asobiVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
+          <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PpgUXvsMEwKYURTVvWXpNklMISGh156nfABO" type="video/mp4"
+          >
+        </video>
+        <div class="designReasoning">
+          <div class="designReasoningContent">
+            <h2>Things to improve!</h2>
+            <p>Image optimisation before upload interms of sizes, quality, etc, and I should have taken more photos back then...</p>
+          </div>
+        </div>
+      </div>
       `
     },
     // airnz
@@ -393,6 +410,29 @@ const UXNotes = `
           </div>
       `
     },
+    // trade me
+    {
+      id: 'project-e',
+      title: 'Trade Me',
+      description: 'Feature Exercise - Compare Listings',
+      tech: 'Figma',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF99oQaH7Fiso6r4wZNfEplMyUeb1vOa2LDnVxc',
+      demoUrl: 'https://example.com',
+      // githubUrl: 'https://github.com',
+      htmlContent: `
+        <div class="trademeContanier">
+          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9fF8kgFampb2Icui3Bo6thfyzgaNnRdUOxHW5" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false"
+          class="kiwibird"
+          >
+
+          
+          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9upYyKhwt4jNavY6SPXCcoW0lknfLxR9Fw2Qp" alt="Trade Me listing card checked compare" loading="lazy" draggable="false">
+          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95OELPHueoRNUDBwuAnqspY6J0jyXVIb9aOdP" alt="Trade Me listing card unchecked compare" loading="lazy" draggable="false">
+          <h1>Trade Me</h1>
+          </div>
+      `
+    },
+
     // UX Notes
     {
       id: 'project-g',
@@ -401,42 +441,6 @@ const UXNotes = `
       tech: 'Figma, Pen',
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9mlsnTLKktpLuPXUHeqEs48z6Yyc1DIbSQhZB',
       htmlContent: UXNotes
-    },
-    // asobi
-    {
-      id: 'project-d',
-      title: 'Asobi',
-      description: 'My Interior Design Portfolio Website',
-      tech: 'Figma, Next.js, Tailwind, Convex',
-      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9QISWSmYEfjk7F2w3AruKIUzcPbe60gnmZ5oR',
-      demoUrl: 'https://asobi.tw',
-      // githubUrl: 'https://github.com',
-      htmlContent: `
-      <div class="asobiContainer">
-        <h1>ASOBI WAS MY LITTLE INTERIOR DESIGN COMPANY REPRESENTS SPATIAL WORKS</h1>
-        <div class="designReasoning">
-          <div class="designReasoningContent">
-            <h2>Reasoning my design!</h2>
-            <p>The mission is to figure out a way to display my works and the content doesn't seem to be too little. Because I didn't organise my photos very well and am not good at taking photos hence there are not many facinating nor heaps of photos to illustrate an image showing I am a cool designer, I have a great business. Responsiveness design is another key consideraion and using my preferred dark theme making it easier with my eyes same as 99% of my own stuff.</p>
-            <p>So I decided to centralise everything and leave a huge white space and have a special nav panel on the bottom right corner giving navigation a bit of fun</p>
-            <a href="https://asobi.tw" target="_blank" rel="noopener noreferrer">
-              <button class="viewWebsiteButton">Visit Website</button>
-            </a>
-          
-          </div>
-        </div>
-        <video class="asobiVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
-          <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PpgUXvsMEwKYURTVvWXpNklMISGh156nfABO" type="video/mp4"
-          >
-        </video>
-        <div class="designReasoning">
-          <div class="designReasoningContent">
-            <h2>Things to improve!</h2>
-            <p>Image optimisation before upload interms of sizes, quality, etc, and I should have taken more photos back then...</p>
-          </div>
-        </div>
-      </div>
-      `
     },
     // about me
     {
@@ -626,6 +630,19 @@ const UXNotes = `
 </div>
 
 <style lang="scss">
+  /* 全域隱藏所有滾動條（橫向與縱向，針對所有元素） */
+  :global(html),
+  :global(body),
+  :global(*),
+  :global(*::before),
+  :global(*::after) {
+    scrollbar-width: none !important; /* Firefox */
+    -ms-overflow-style: none !important; /* IE and Edge */
+  }
+  :global(*::-webkit-scrollbar) {
+    display: none !important;
+  }
+
   .portfolio-container {
     width: 100%;
     height: 100vh;
@@ -651,28 +668,10 @@ const UXNotes = `
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE and Edge */
     /* 恢復預設選取，僅在拖曳時於 JS 動態加 user-select: none */
-  }
 
-  .portfolio-container
-  .content-scroll-container::-webkit-scrollbar {
-    display: none;
-  }
-
-  /* 全域隱藏所有滾動條（橫向與縱向，針對所有元素） */
-  :global(html),
-  :global(body),
-  :global(*),
-  :global(*::before),
-  :global(*::after) {
-    scrollbar-width: none !important; /* Firefox */
-    -ms-overflow-style: none !important; /* IE and Edge */
-  }
-  :global(*::-webkit-scrollbar) {
-    display: none !important;
-  }
-
-  .content-scroll-container:active {
-    cursor: grabbing;
+    &:active {
+      cursor: grabbing;
+    }
   }
 
   .content-slides {
@@ -690,12 +689,7 @@ const UXNotes = `
     justify-content: center;
     padding: 0; /* 移除padding，讓內容貼近viewport邊緣 */
     box-sizing: border-box;
-    background-color: #f5f5f5;
   }
-
-  // .content-slide.alternate {
-  //   background-color: #e8e8e8; /* 稍微深一點的背景色 */
-  // }
 
   .content-inner {
     width: auto; /* 移除 max-width 限制 */
@@ -709,55 +703,11 @@ const UXNotes = `
 
   /* 為自定義HTML內容提供基本樣式 */
   .content-inner :global(.custom-content) {
-    /* line-height: 1.6; */
     color: var(--grey-800);
     box-sizing: border-box;
     height: 100%;
     /* 恢復預設選取 */
   }
-
-
-
-  // .content-inner :global(.custom-content h1) {
-  //   font-size: 2.5rem;
-  //   color: #333;
-  //   /* margin: 0 0 16px 0; */
-  //   font-weight: 700;
-  //   text-align: center;
-  // }
-
-  // .content-inner :global(.custom-content h2) {
-  //   font-size: 1.3rem;
-  //   // color: #666;
-  //   /* margin: 0 0 24px 0; */
-  //   font-weight: 400;
-  //   text-align: center;
-  // }
-
-  // .content-inner :global(.custom-content h3) {
-  //   font-size: 1.2rem;
-  //   // color: #333;
-  //   /* margin: 20px 0 10px 0; */
-  //   font-weight: 600;
-  // }
-
-  // .content-inner :global(.custom-content p) {
-  //   /* margin: 16px 0; */
-  //   line-height: 1.6;
-  // }
-
-  // .content-inner :global(.custom-content img) {
-  //   max-width: 100%;
-  //   height: auto;
-  // }
-
-  // .content-inner :global(.custom-content a) {
-  //   transition: all 0.3s ease;
-  // }
-
-  // .content-inner :global(.custom-content a:hover) {
-  //   transform: translateY(-2px);
-  // }
 
   /* 下半部：專案卡片區域 */
   .projects-section {

@@ -17,10 +17,6 @@
     }
   }
 
-  function truncateText(text, maxLength = 24) {
-    if (!text) return '';
-    return text.length > maxLength ? text.slice(0, maxLength - 1) + '…' : text;
-  }
 </script>
 
 <div 
