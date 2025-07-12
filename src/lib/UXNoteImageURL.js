@@ -39,4 +39,6 @@ export const imageUrls = [
   "https://xb8rnillf1.ufs.sh/f/697Z538ULBF9mufg0JKktpLuPXUHeqEs48z6Yyc1DIbSQhZB",
   "https://xb8rnillf1.ufs.sh/f/697Z538ULBF9lNadxhfbsRQD5fXaHS719xZGjI3KUcwrEnL6",
   "https://xb8rnillf1.ufs.sh/f/697Z538ULBF97o4Hgbq5w3duVZ6hUWxfrjAktJYyDTezgC2a",
+
+  "https://xb8rnillf1.ufs.sh/f/697Z538ULBF9pZzBx6HSYPxyMGr8L71fsOX20amW9izjBJw3",
 ];

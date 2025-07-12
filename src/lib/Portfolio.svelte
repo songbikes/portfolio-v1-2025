@@ -2,6 +2,8 @@
 <script>
   import ProjectCard from './ProjectCard.svelte'
   import { imageUrls } from './UXNoteImageURL.js';
+  import ImageTextCarousel from './ImageTextCarousel.svelte';
+  import {airnzImages} from './AirNZImages.js';
   import '../styles/airnz.scss';
   import '../styles/aboutme.scss';
   import '../styles/uxnotes.css';
@@ -182,6 +184,8 @@ const UXNotes = `
   </div>
 `;
 
+
+
   // 範例專案資料 - 使用HTML內容以便完全自由編輯
   const defaultProjects = [
     {
@@ -191,7 +195,6 @@ const UXNotes = `
       tech: 'Figma, Next.js, Tailwind, Convex, Stripe, Clerk',
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9vi5kVcTHbjBL8eOS9FpXnM5CGJDVyqQkZfso',
       demoUrl: 'https://digihi.io',
-      // githubUrl: 'https://github.com',
       htmlContent: `
         <div class="custom-content di-base">
           <h1 class="hero">WHERE THE TECH AND STARTUP PEOPLE TO SHINE.</h1>
@@ -296,6 +299,7 @@ const UXNotes = `
         </div>
       `
     },
+    // airnz
     {
       id: 'project-f',
       title: 'Air NZ',
@@ -311,19 +315,93 @@ const UXNotes = `
             <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9kah9UDCh4TPYHUfIwknrimsoezySMpZ319d5" type="video/mp4"
             >
           </video>
-        </div>
+         
+          <div class="airnzImages">
+            <div class="airnzTextImgContainer">
+              <div class="airnzText">
+                <h3>Flight</h3>
+                <small>
+                  1. These blocks lead to Air NZ website for flight booking actionsI was expecting they will bring me some holiday suggestions but they all only take me to the booking flight section, just like the “Book” button in the nav will do.
+                  *The book flight function is quite detailed, 5-step online booking process. I won't touch on that in this exercise.
+                  *Try keeping the images giving a good vibe but remove their booking function to avoid frustration.
+                </small><br/>
+                <small>
+                  2. Add booking manually if needed
+                  - A bit confusing, a dedicated page for boarding pass, and move this function over that page.
+                </small><br/>
+                <small>
+                  3. Assume these are the main functions for the mobile app
+                </small>
+              </div>
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9HSZS5fnNL4jdyCfwVonh2kTOxib6tXvWlgsJ" alt="Air NZ Design" loading="lazy" draggable="false" class="airnzAfterImg"/>
+
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9I8EyqhRgVBrx1PjfWlo6RN92iTpaOSJY8XcE" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+
+        
+            <div class="airnzTextImgContainer">
+              <div class="airnzText">
+                <h3>Book</h3>
+                <small>1. Set notification can be replaced by something more important? This might be coming from user feedback but I think it would be great putting it with the booking results to notify users' bookings</small><br/>
+                <small>2. Book a flight leads to Air NZ website for flight booking actions</small><br/>
+                <small>3. A variety of services that are available for booking in which they are either related to the trip/flight or can be booked individually *Parts related to book a flight will remain included in the booking process and those don't will be integrated into another section.</small><br/>
+                <small>So far I feel these features compliment each other but can be organised or categorised as well as reinforcing with more pleasing visual design</small><br/>
+              </div>
+              
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9IYKKhARgVBrx1PjfWlo6RN92iTpaOSJY8XcE" alt="Air NZ Design" loading="lazy" draggable="false" class="airnzAfterImg"/>
+              
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF907Yy3B99FdxzmYA6eiPQ83BNSDCZVqlRMn4U" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+  
+            <div class="airnzTextImgContainer">
+              <div class="airnzText">
+                <h3>Airpoints</h3>
+                <small>1. Shows the Airpoints membership number</small><br/>
+                <small>2. Brings up the barcode by tapping on it</small><br/>
+                <small>3. Your balance can go with the 1 and 2</small><br/>
+                <small>4. The 2nd section of this page that shows how many points needed for next tier with progress bar and shows the activities in the past</small><br/>
+                <small>5. The 3rd section of the page</small><br/>
+                <small>6. The 4th section of the page</small><br/>
+                <small>7. Those light pink spots indicate the functions redirect users to website</small><br/>
+                <small></small>
+              </div>
+              
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9xklumV376fXkqauQE91iJWYnAFHgZyjTGwIK" alt="Air NZ Design" loading="lazy" draggable="false" class="airnzAfterImg"/>
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9jUxvzwC6dbmNKiUAoW8gF4D6QLTZR3qeOE1l" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+  
+            <div class="airnzTextImgContainer">
+              <div class="airnzText">
+                <h3>More</h3>
+                <small>1. Good to have but in the more section is a little bit counter-intuitive</small><br/>
+                <small>2. A great secondary function</small><br/>
+                <small>3. Quite crucial for a smooth travel experience</small><br/>
+                <small>4. Notification can stay here just fine as a secondary function setting up all notifications for different features</small><br/>
+                <small>5. I thought this was a checklist to prepare myself for arrival & departure. But it’s actually checking flights. Maybe another name? And maybe another page?</small><br/>
+                <small>6. Sign out</small><br/>
+                <small>v</small>
+              </div>
+
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9dTkWRWNArmiAK2MEIR5Qq6aYf4O1Bx8SgscH" loading="lazy" draggable="false" class="airnzAfterImg"/>
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9kwp72l0Ch4TPYHUfIwknrimsoezySMpZ319d" loading="lazy" draggable="false"/>
+  
+            </div>
+          </div>
+         
+
+ 
       `
     },
+    // UX Notes
     {
       id: 'project-g',
       title: 'UX Notes',
       description: 'I need notes to help me remember stuff',
       tech: 'Figma, Pen',
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9mlsnTLKktpLuPXUHeqEs48z6Yyc1DIbSQhZB',
-      // demoUrl: 'https://example.com',
-      // githubUrl: 'https://github.com',
       htmlContent: UXNotes
     },
+    // asobi
     {
       id: 'project-d',
       title: 'Asobi',
@@ -338,19 +416,12 @@ const UXNotes = `
         <div class="designReasoning">
           <div class="designReasoningContent">
             <h2>Reasoning my design!</h2>
-            <p>The mission is to figure out a way to display my works and the content doesn't seem to be too little. Because I didn't organise my photos very well and am not good at taking photos hence there are not many facinating nor heaps of photos to illustrate an image showing I am a cool designer, I have a great business. Responsiveness design is another key consideraion and using my preferred dark theme making it easier with my eyes same as 99% of my own stuff.</p><br/>
+            <p>The mission is to figure out a way to display my works and the content doesn't seem to be too little. Because I didn't organise my photos very well and am not good at taking photos hence there are not many facinating nor heaps of photos to illustrate an image showing I am a cool designer, I have a great business. Responsiveness design is another key consideraion and using my preferred dark theme making it easier with my eyes same as 99% of my own stuff.</p>
             <p>So I decided to centralise everything and leave a huge white space and have a special nav panel on the bottom right corner giving navigation a bit of fun</p>
             <a href="https://asobi.tw" target="_blank" rel="noopener noreferrer">
               <button class="viewWebsiteButton">Visit Website</button>
             </a>
-            <hr/>
-            <div class="tech-icons">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" />
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9hdE5Y9PiTknVi2zXWZ1ByA6cbdDq4h537sHR" alt="Convex" />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SCSS" />
-              <img class="figma" src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9n41tdTcD3RIOQ6ljPp0fUmZYFs5zEyhJoVCM" alt="Figma" />
-            </div>
+          
           </div>
         </div>
         <video class="asobiVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
@@ -366,6 +437,7 @@ const UXNotes = `
       </div>
       `
     },
+    // about me
     {
       id: 'project-h',
       title: 'About Me',
