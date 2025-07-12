@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: auto;
-  height: calc(100vh - 240px);
+  height: calc(100vh - 12.5vw);
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -34,7 +34,7 @@
     position: relative;
     left: 100px;
     display: flex;
-    // height: calc(100vh - 240px);
+    height: calc(100vh - 12.5vw);
 
     .airnzTextImgContainer {
       height: 100%;
@@ -45,6 +45,10 @@
         object-fit: cover;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
       }
 
       .airnzAfterImg {
@@ -52,6 +56,10 @@
         bottom: 0;
         height: 30%;
         width: auto;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
       }
 
       .airnzText {
@@ -69,11 +77,6 @@
           margin-bottom: 1rem;
         }
       }
-      // .flex-col {
-      //   display: flex;
-      //   flex-direction: column;
-      //   gap: 1rem;
-      // }
     }
   }
 }

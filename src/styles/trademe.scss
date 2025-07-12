@@ -1,0 +1,14 @@
+.trademeContanier {
+  display: flex;
+  height: 100%;
+  width: auto;
+  background-color: var(--grey-900);
+  position: relative;
+
+  .kiwibird {
+    height: 30%;
+    width: auto;
+    position: absolute;
+    bottom: 0px;
+  }
+}

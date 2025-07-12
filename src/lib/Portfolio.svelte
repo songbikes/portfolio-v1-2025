@@ -7,6 +7,7 @@
   import '../styles/uxnotes.css';
   import '../styles/digihi.css';
   import '../styles/asobi.scss';
+  import '../styles/trademe.scss';
   
   export let projects = []
   
@@ -290,11 +291,16 @@ const UXNotes = `
       demoUrl: 'https://example.com',
       // githubUrl: 'https://github.com',
       htmlContent: `
-        <div class="custom-content">
+        <div class="trademeContanier">
+          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9fF8kgFampb2Icui3Bo6thfyzgaNnRdUOxHW5" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false"
+          class="kiwibird"
+          >
+
+          
+          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9upYyKhwt4jNavY6SPXCcoW0lknfLxR9Fw2Qp" alt="Trade Me listing card checked compare" loading="lazy" draggable="false">
+          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95OELPHueoRNUDBwuAnqspY6J0jyXVIb9aOdP" alt="Trade Me listing card unchecked compare" loading="lazy" draggable="false">
           <h1>Trade Me</h1>
-          <h1>Placeholder</h1>
-          <img src="https://placehold.co/600x400" alt="Asobi Interior Design" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 20px;">
-        </div>
+          </div>
       `
     },
     // airnz
@@ -385,9 +391,6 @@ const UXNotes = `
   
             </div>
           </div>
-         
-
- 
       `
     },
     // UX Notes
@@ -633,7 +636,7 @@ const UXNotes = `
 
   /* 上半部：內容展示區域 */
   .content-display {
-    height: calc(100vh - 240px); /* 預留300px給卡片區域 */
+    height: calc(100vh - 12.5vw); /* 100 / 8 = 12.5 */
     overflow: hidden;
     position: relative;
     z-index: 0; /* 確保內容區域在卡片之下 */
@@ -675,7 +678,7 @@ const UXNotes = `
   .content-slides {
     display: flex;
     height: 100%;
-    width: calc(200vw * 7); /* 雙倍寬度以實現無限循環 */
+    width: calc(200vw * 8); /* 雙倍寬度以實現無限循環 */
   }
 
   .content-slide {
@@ -690,9 +693,9 @@ const UXNotes = `
     background-color: #f5f5f5;
   }
 
-  .content-slide.alternate {
-    background-color: #e8e8e8; /* 稍微深一點的背景色 */
-  }
+  // .content-slide.alternate {
+  //   background-color: #e8e8e8; /* 稍微深一點的背景色 */
+  // }
 
   .content-inner {
     width: auto; /* 移除 max-width 限制 */
@@ -723,38 +726,38 @@ const UXNotes = `
   //   text-align: center;
   // }
 
-  .content-inner :global(.custom-content h2) {
-    font-size: 1.3rem;
-    // color: #666;
-    /* margin: 0 0 24px 0; */
-    font-weight: 400;
-    text-align: center;
-  }
+  // .content-inner :global(.custom-content h2) {
+  //   font-size: 1.3rem;
+  //   // color: #666;
+  //   /* margin: 0 0 24px 0; */
+  //   font-weight: 400;
+  //   text-align: center;
+  // }
 
-  .content-inner :global(.custom-content h3) {
-    font-size: 1.2rem;
-    // color: #333;
-    /* margin: 20px 0 10px 0; */
-    font-weight: 600;
-  }
+  // .content-inner :global(.custom-content h3) {
+  //   font-size: 1.2rem;
+  //   // color: #333;
+  //   /* margin: 20px 0 10px 0; */
+  //   font-weight: 600;
+  // }
 
-  .content-inner :global(.custom-content p) {
-    /* margin: 16px 0; */
-    line-height: 1.6;
-  }
+  // .content-inner :global(.custom-content p) {
+  //   /* margin: 16px 0; */
+  //   line-height: 1.6;
+  // }
 
-  .content-inner :global(.custom-content img) {
-    max-width: 100%;
-    height: auto;
-  }
+  // .content-inner :global(.custom-content img) {
+  //   max-width: 100%;
+  //   height: auto;
+  // }
 
-  .content-inner :global(.custom-content a) {
-    transition: all 0.3s ease;
-  }
+  // .content-inner :global(.custom-content a) {
+  //   transition: all 0.3s ease;
+  // }
 
-  .content-inner :global(.custom-content a:hover) {
-    transform: translateY(-2px);
-  }
+  // .content-inner :global(.custom-content a:hover) {
+  //   transform: translateY(-2px);
+  // }
 
   /* 下半部：專案卡片區域 */
   .projects-section {
@@ -762,47 +765,44 @@ const UXNotes = `
     bottom: 0;
     left: 0;
     right: 0;
-    height: 300px; /* 設為300px，確保hover放大卡片不被切掉 */
+    height: calc(12.5vw * 1.2); /* 設為300px，確保hover放大卡片不被切掉 */
     background: transparent;
     display: flex;
     align-items: flex-end;
     pointer-events: none;
     overflow: visible; /* 允許hover放大的卡片超出 */
     z-index: 10;
-  }
 
-  .scroll-container {
-    width: 100%;
-    height: 300px; /* 改為300px，給hover放大卡片足夠空間 */
-    overflow-x: auto;
-    overflow-y: visible; /* 關鍵：允許卡片向上延伸不被切掉 */
-    cursor: grab;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-    display: flex;
-    align-items: flex-end; /* 保持底部對齊 */
-    pointer-events: auto;
-    position: relative;
-    /* 恢復預設選取，圖片可拖曳 */
-  }
+    .scroll-container {
+      width: 100%;
+      height: calc(12.5vw * 1.2); /* 改為300px，給hover放大卡片足夠空間 */
+      overflow-x: auto;
+      overflow-y: visible; /* 關鍵：允許卡片向上延伸不被切掉 */
+      cursor: grab;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+      display: flex;
+      align-items: flex-end; /* 保持底部對齊 */
+      justify-content: center;
+      pointer-events: auto;
+      position: relative;
 
-  .scroll-container:active {
-    cursor: grabbing;
-  }
+      &:active {
+        cursor: grabbing;
+      }
+      /* 滾動條樣式 */
+      &::-webkit-scrollbar {
+        display: none; /* 隱藏滾動條 */
+      }
 
-  .projects-grid {
-    display: flex;
-    height: 240px; /* 基礎卡片高度 */
-    width: max-content;
-    align-items: flex-end;
-    gap: 0;
-    /* padding-top: 60px; 給hover放大的卡片預留頂部空間 */
-    box-sizing: border-box;
-  }
-
-  /* 滾動條樣式 */
-  .scroll-container::-webkit-scrollbar {
-    display: none;
+      .projects-grid {
+        display: flex;
+        height: 12.5vw; /* 基礎卡片高度 */
+        width: max-content;
+        align-items: flex-end;
+        box-sizing: border-box;
+      }
+    }
   }
 
 </style>
