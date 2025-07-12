@@ -2,7 +2,6 @@
 <script>
   import ProjectCard from './ProjectCard.svelte'
   import { imageUrls } from './UXNoteImageURL.js';
-  import {airnzImages} from './AirNZImages.js';
   import '../styles/airnz.scss';
   import '../styles/aboutme.scss';
   import '../styles/uxnotes.css';
