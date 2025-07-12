@@ -3,7 +3,7 @@
   import ProjectCard from './ProjectCard.svelte'
   import { imageUrls } from './UXNoteImageURL.js';
   import '../styles/airnz.scss';
-  import '../styles/aboutme.css';
+  import '../styles/aboutme.scss';
   import '../styles/uxnotes.css';
   import '../styles/digihi.css';
   import '../styles/asobi.scss';
@@ -334,11 +334,12 @@ const UXNotes = `
       // githubUrl: 'https://github.com',
       htmlContent: `
       <div class="asobiContainer">
-        <h1>Asobi was my humble interior design company, and I built a website for it.</h1>
+        <h1>ASOBI WAS MY LITTLE INTERIOR DESIGN COMPANY REPRESENTS SPATIAL WORKS</h1>
         <div class="designReasoning">
           <div class="designReasoningContent">
             <h2>Reasoning my design!</h2>
-            <p>I didn't organise my photos very well and am not good at taking photos hence there are many facinating nor heaps of photos to illustrate an image showing I am a cool designer. So, I need to figure out a way to display my works and the content doesn't seem to be too little. As well as considering responsiveness design and using my preferred dark theme making it easier with my eyes.</p>
+            <p>The mission is to figure out a way to display my works and the content doesn't seem to be too little. Because I didn't organise my photos very well and am not good at taking photos hence there are not many facinating nor heaps of photos to illustrate an image showing I am a cool designer, I have a great business. Responsiveness design is another key consideraion and using my preferred dark theme making it easier with my eyes same as 99% of my own stuff.</p><br/>
+            <p>So I decided to centralise everything and leave a huge white space and have a special nav panel on the bottom right corner giving navigation a bit of fun</p>
             <a href="https://asobi.tw" target="_blank" rel="noopener noreferrer">
               <button class="viewWebsiteButton">Visit Website</button>
             </a>
@@ -346,6 +347,7 @@ const UXNotes = `
             <div class="tech-icons">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" />
               <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9hdE5Y9PiTknVi2zXWZ1ByA6cbdDq4h537sHR" alt="Convex" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SCSS" />
               <img class="figma" src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9n41tdTcD3RIOQ6ljPp0fUmZYFs5zEyhJoVCM" alt="Figma" />
             </div>
@@ -446,14 +448,42 @@ const UXNotes = `
                 </div>
               </div>
             </section>
+
+            <div class="tech-section">
+              <h2>I use</h2>
+              <div class="tech-icons">
+                <img class="figma" src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9n41tdTcD3RIOQ6ljPp0fUmZYFs5zEyhJoVCM" alt="Figma logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js logo" />
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9hdE5Y9PiTknVi2zXWZ1ByA6cbdDq4h537sHR" alt="Convex logo" />
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9bELy7aZTOgBp5SZ7jHEl8UzLMRaiD1WY9Cs3" alt="Tailwind CSS logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SCSS logo" />
+              </div>
+            </div>
+            
+            <section class="skills-section">
+              <h2>I love</h2>
+              <ul class="skills-list">
+                <li>Product Design</li>
+                <li>UX/UI Design</li>
+                <li>Team Collaboration</li>
+                <li>Research</li>
+                <li>Usability Testing</li>
+              </ul>
+            </section>
+
+            </div>
             <div class="aboutMeFooter">
               <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
-              <video class="aboutMeVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
-                <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95SmFOOeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" type="video/mp4">
+
+              <video 
+                class="aboutMeVideo" controls controlsList="nodownload nofullscreen noremoteplayback" muted loop>
+                <source 
+                  src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95SmFOOeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" 
+                  type="video/mp4">
               </video>
+
               <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
             </div>
-          </div>
         </div>
       `
     }

@@ -18,7 +18,7 @@
 
 .resume-container {
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   padding: 0 2rem;
 }
 
@@ -86,15 +86,34 @@
   margin: 0;
 }
 
+.tech-section,
+.skills-section,
 .experience-section {
   margin-bottom: 2rem;
-}
 
-.experience-section h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--grey-100);
-  margin: 0 0 2rem 0;
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--grey-100);
+    margin: 0 0 2rem 0;
+  }
+}
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  li {
+    background-color: var(--grey-800);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    color: var(--grey-300);
+    transition: background-color 0.3s ease;
+  }
 }
 
 .timeline {
@@ -171,13 +190,14 @@
   justify-content: center;
   margin-top: 2rem;
   gap: 2rem;
+  width: 100%;
 }
 .aboutMeVideo {
   width: 100%;
   height: auto;
-  max-width: 600px;
+  max-width: 700px;
   border-radius: 8px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .aboutMeVideo::-webkit-media-controls-fullscreen-button {
@@ -188,8 +208,8 @@
   display: none;
 }
 .pizza {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   animation: spin 10s linear infinite;
 }
 
@@ -199,5 +219,23 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.tech-icons {
+  display: flex;
+  gap: 2rem;
+  margin: 0.75rem 0;
+  align-items: center;
+
+  img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+  }
+
+  .figma {
+    width: 26px;
+    height: 26px;
   }
 }
