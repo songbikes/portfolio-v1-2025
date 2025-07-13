@@ -337,75 +337,193 @@ const UXNotes = `
             >
           </video>
          
-          <div class="airnzImages">
-            <div class="airnzTextImgContainer">
-              <div class="airnzText">
-                <h3>Flight</h3>
-                <small>
-                  1. These blocks lead to Air NZ website for flight booking actionsI was expecting they will bring me some holiday suggestions but they all only take me to the booking flight section, just like the “Book” button in the nav will do.
-                  *The book flight function is quite detailed, 5-step online booking process. I won't touch on that in this exercise.
-                  *Try keeping the images giving a good vibe but remove their booking function to avoid frustration.
-                </small><br/>
-                <small>
-                  2. Add booking manually if needed
-                  - A bit confusing, a dedicated page for boarding pass, and move this function over that page.
-                </small><br/>
-                <small>
-                  3. Assume these are the main functions for the mobile app
-                </small>
-              </div>
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9HSZS5fnNL4jdyCfwVonh2kTOxib6tXvWlgsJ" alt="Air NZ Design" loading="lazy" draggable="false" class="airnzAfterImg"/>
+          <div class="allImagesText">
 
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9I8EyqhRgVBrx1PjfWlo6RN92iTpaOSJY8XcE" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            <div class="beforeAfterContainer">
+              <div class="before">
+                <div class="textContent">
+                  <h3>Flight page</h3>
+                  <small>
+                    1. These blocks lead to Air NZ website for flight booking actionsI was expecting they will bring me some holiday suggestions but they all only take me to the booking flight section, just like the “Book” button in the nav will do.
+                    *The book flight function is quite detailed, 5-step online booking process. I won't touch on that in this exercise.
+                    *Try keeping the images giving a good vibe but remove their booking function to avoid frustration.
+                  </small><br/>
+                  <small>
+                    2. Add booking manually if needed
+                    - A bit confusing, a dedicated page for boarding pass, and move this function over that page.
+                  </small><br/>
+                  <small>
+                    3. Assume these are the main functions for the mobile app
+                  </small>
+                  <p>Origin Design Images (Scroll ↓)</p>
+                </div>
+                <div class="imageContainer">
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9RJ8PG7gs74InDt5Xxh3qfzVKEcPeOdMwuRiT" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                </div>
+              </div>
+
+              <div class="after">
+                <div class="textContent">
+                  <h4>Main changes</h4>
+                  <small>
+                    1. Changing Flight to Deals making it clear that this is a section for deals and offers, not just flight bookings
+                  </small><br/>
+                  <small>
+                    2. Replacing notification with user profile icon, which shows passport, baggage status, meal preferences and other personal information
+                  </small><br/>
+                  <small>
+                    3. Finding car rentals, hotels, and other deals which are originally in the Book section to this page.
+                  </small><br/>
+                  <p>New Design Images (Scroll ↓)</p>
+                </div>
+                <div class="imageContainer">
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9VlRBZyDZK8MN6L24SBxf1eahlQdu9wJOTHGy" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9ILr3jdRgVBrx1PjfWlo6RN92iTpaOSJY8XcE" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9F0s9p61gNCOvspIkibA5oUH1t9VuKXYZqz8y" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                </div>
+              </div>
             </div>
 
         
-            <div class="airnzTextImgContainer">
-              <div class="airnzText">
-                <h3>Book</h3>
-                <small>1. Set notification can be replaced by something more important? This might be coming from user feedback but I think it would be great putting it with the booking results to notify users' bookings</small><br/>
-                <small>2. Book a flight leads to Air NZ website for flight booking actions</small><br/>
-                <small>3. A variety of services that are available for booking in which they are either related to the trip/flight or can be booked individually *Parts related to book a flight will remain included in the booking process and those don't will be integrated into another section.</small><br/>
-                <small>So far I feel these features compliment each other but can be organised or categorised as well as reinforcing with more pleasing visual design</small><br/>
+            <div class="beforeAfterContainer">
+              <div class="before">
+                <div class="textContent">
+                  <h3>Book page</h3>
+                  
+                  <small>
+                    1. Set notification can be replaced by something more important? This might be coming from user feedback but I think it would be great putting it with the booking results to notify users' bookings
+                  </small><br/>
+                  
+                  <small>
+                    2. Book a flight leads to Air NZ website for flight booking actions
+                  </small><br/>
+                  
+                  <small>
+                    3. A variety of services that are available for booking in which they are either related to the trip/flight or can be booked individually *Parts related to book a flight will remain included in the booking process and those don't will be integrated into another section.
+                  </small><br/>
+                  
+                  <small>
+                    So far I feel these features compliment each other but can be organised or categorised as well as reinforcing with more pleasing visual design
+                  </small><br/>
+                  
+                  <p>Origin Design Images (Scroll ↓)</p>
+                </div>
+
+                <div class="imageContainer">
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF992xK7VFiso6r4wZNfEplMyUeb1vOa2LDnVxc" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                </div>
               </div>
               
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9IYKKhARgVBrx1PjfWlo6RN92iTpaOSJY8XcE" alt="Air NZ Design" loading="lazy" draggable="false" class="airnzAfterImg"/>
-              
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF907Yy3B99FdxzmYA6eiPQ83BNSDCZVqlRMn4U" alt="Air NZ Design" loading="lazy" draggable="false"/>
-            </div>
-  
-            <div class="airnzTextImgContainer">
-              <div class="airnzText">
-                <h3>Airpoints</h3>
-                <small>1. Shows the Airpoints membership number</small><br/>
-                <small>2. Brings up the barcode by tapping on it</small><br/>
-                <small>3. Your balance can go with the 1 and 2</small><br/>
-                <small>4. The 2nd section of this page that shows how many points needed for next tier with progress bar and shows the activities in the past</small><br/>
-                <small>5. The 3rd section of the page</small><br/>
-                <small>6. The 4th section of the page</small><br/>
-                <small>7. Those light pink spots indicate the functions redirect users to website</small><br/>
-                <small></small>
+              <div class="after">
+                <div class="textContent">
+                  <h4>Main changes</h4>
+                  <small>
+                    1. Changing Adding a dedicated page for bording pass and other relevant information. Aiming to make it easier for users to find their boarding pass and other related information
+                  </small><br/>
+                  <small>
+                    2. Book a flight now shows flight booking directly as flight booking is the main service to leverage other features for users and the company
+                  </small><br/>
+                  <p>New Design Images (Scroll ↓)</p>
+                </div>
+                <div class="imageContainer">
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9sP1lznySXBgDT8iUW2z61qlh9kfPL3CH7YVp" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF96a7nDO8ULBF9l3pOeA0tZP2vVdWInwkXK8cS" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9p53dW2HSYPxyMGr8L71fsOX20amW9izjBJw3" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9sDQbo0hySXBgDT8iUW2z61qlh9kfPL3CH7YV" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9tY4Ah4dgGd3OZlcaJA0epkI8hHB9y1xC7rwM" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9I7CT1iRgVBrx1PjfWlo6RN92iTpaOSJY8XcE" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                </div>
               </div>
               
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9xklumV376fXkqauQE91iJWYnAFHgZyjTGwIK" alt="Air NZ Design" loading="lazy" draggable="false" class="airnzAfterImg"/>
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9jUxvzwC6dbmNKiUAoW8gF4D6QLTZR3qeOE1l" alt="Air NZ Design" loading="lazy" draggable="false"/>
             </div>
   
-            <div class="airnzTextImgContainer">
-              <div class="airnzText">
-                <h3>More</h3>
-                <small>1. Good to have but in the more section is a little bit counter-intuitive</small><br/>
-                <small>2. A great secondary function</small><br/>
-                <small>3. Quite crucial for a smooth travel experience</small><br/>
-                <small>4. Notification can stay here just fine as a secondary function setting up all notifications for different features</small><br/>
-                <small>5. I thought this was a checklist to prepare myself for arrival & departure. But it’s actually checking flights. Maybe another name? And maybe another page?</small><br/>
-                <small>6. Sign out</small><br/>
-                <small>v</small>
+            <div class="beforeAfterContainer">
+              <div class="before">
+                <div class="textContent">
+                  <h3>Airpoints page</h3>
+                  <small>1. Shows the Airpoints membership number</small><br/>
+                  <small>2. Brings up the barcode by tapping on it</small><br/>
+                  <small>3. Your balance can go with the 1 and 2</small><br/>
+                  <small>4. The 2nd section of this page that shows how many points needed for next tier with progress bar and shows the activities in the past</small><br/>
+                  <small>5. The 3rd section of the page</small><br/>
+                  <small>6. The 4th section of the page</small><br/>
+                  <small>7. Those light pink spots indicate the functions redirect users to website</small><br/>
+                  <p>Origin Design Images (Scroll ↓)</p>
+                </div>
+                <div class="imageContainer">
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9l77ZS8cfbsRQD5fXaHS719xZGjI3KUcwrEnL" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                </div>
+              </div>
+              
+              <div class="after">
+                <div class="textContent">
+                  <h4>Main changes</h4>
+                  <small>
+                    1. Clearly separating these features into different sections making the page more organised and improving the legibility
+                  </small><br/>
+                  <p>New Design Images (Scroll ↓)</p>
+                </div>
+                <div class="imageContainer">
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9Vnk0GTDZK8MN6L24SBxf1eahlQdu9wJOTHGy" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9hdveTpniTknVi2zXWZ1ByA6cbdDq4h537sHR" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9uo6gvhwt4jNavY6SPXCcoW0lknfLxR9Fw2Qp" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                </div>
+              </div>
+            </div>
+  
+            <div class="beforeAfterContainer">
+              <div class="before">
+                <div class="textContent">
+                  <h3>More page</h3>
+                  <small>1. Good to have but in the more section is a little bit counter-intuitive</small><br/>
+                  <small>2. A great secondary function</small><br/>
+                  <small>3. Quite crucial for a smooth travel experience</small><br/>
+                  <small>4. Notification can stay here just fine as a secondary function setting up all notifications for different features</small><br/>
+                  <small>5. I thought this was a checklist to prepare myself for arrival & departure. But it's actually checking flights. Maybe another name? And maybe another page?</small><br/>
+                  <small>6. Sign out</small><br/>
+                  <p>Origin Design Images (Scroll ↓)</p>
+                </div>
+                <div class="imageContainer">
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9IQLSMfRgVBrx1PjfWlo6RN92iTpaOSJY8XcE" loading="lazy" draggable="false"/>
+                </div>
               </div>
 
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9dTkWRWNArmiAK2MEIR5Qq6aYf4O1Bx8SgscH" loading="lazy" draggable="false" class="airnzAfterImg"/>
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9kwp72l0Ch4TPYHUfIwknrimsoezySMpZ319d" loading="lazy" draggable="false"/>
-  
+              <div class="after">
+                <div class="textContent">
+                  <h4>Main changes</h4>
+                  <small>
+                    1. The functions are in different categories
+                  </small><br/>
+                  <small>
+                    2. Removed the link to the website
+                  </small><br/>
+                  <small>
+                    3. Removed View credit note(not sure its use)
+                  </small><br/>
+                  <small>
+                    4. Moved sign out to user profile section
+                  </small><br/>
+                  <small>
+                    5. Added Airpoints Store for direct access
+                  </small><br/>
+                  <small>
+                    6. Added some features for first time travellers
+                  </small><br/>
+                  <small>
+                    7. Moved taxi to this section
+                  </small><br/>
+                  <small>
+                    8. Added Booking Preferences function to skip some steps in booking process if possible
+                  </small><br/>
+                  <p>New Design Images (Scroll ↓)</p>
+                </div>
+                <div class="imageContainer">
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9YfrZGxiS4SC8A0JbG1FR6dQtLmhcusHU7XN9" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9KD5iyjxJhF3fUW27CsNKIa1pT0RLuxEbt4nm" loading="lazy" draggable="false"/>
+                  <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9nMs0KWcD3RIOQ6ljPp0fUmZYFs5zEyhJoVCM" loading="lazy" draggable="false"/>
+                </div>
+              </div>
+              
             </div>
           </div>
       `
