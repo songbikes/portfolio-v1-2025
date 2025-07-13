@@ -417,8 +417,6 @@ const UXNotes = `
       description: 'Feature Exercise - Compare Listings',
       tech: 'Figma',
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF99oQaH7Fiso6r4wZNfEplMyUeb1vOa2LDnVxc',
-      demoUrl: 'https://example.com',
-      // githubUrl: 'https://github.com',
       htmlContent: `
         <div class="trademeContanier">
           <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9fF8kgFampb2Icui3Bo6thfyzgaNnRdUOxHW5" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false"
@@ -630,19 +628,7 @@ const UXNotes = `
 </div>
 
 <style lang="scss">
-  /* 全域隱藏所有滾動條（橫向與縱向，針對所有元素） */
-  :global(html),
-  :global(body),
-  :global(*),
-  :global(*::before),
-  :global(*::after) {
-    scrollbar-width: none !important; /* Firefox */
-    -ms-overflow-style: none !important; /* IE and Edge */
-  }
-  :global(*::-webkit-scrollbar) {
-    display: none !important;
-  }
-
+  /* 最外層 */
   .portfolio-container {
     width: 100%;
     height: 100vh;
@@ -657,56 +643,48 @@ const UXNotes = `
     overflow: hidden;
     position: relative;
     z-index: 0; /* 確保內容區域在卡片之下 */
-  }
 
-  .content-scroll-container {
-    width: 100%;
-    height: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    cursor: grab;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-    /* 恢復預設選取，僅在拖曳時於 JS 動態加 user-select: none */
+    .content-scroll-container {
+      width: 100%;
+      height: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      cursor: grab;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+      /* 恢復預設選取，僅在拖曳時於 JS 動態加 user-select: none */
+  
+      &:active {
+        cursor: grabbing;
+      }
 
-    &:active {
-      cursor: grabbing;
+      .content-slides {
+        display: flex;
+        height: 100%;
+        width: calc(200vw * 8); /* 雙倍寬度以實現無限循環 */
+    
+        .content-slide {
+          width: auto;
+          height: 100%;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0; /* 移除padding，讓內容貼近viewport邊緣 */
+          box-sizing: border-box;
+    
+          .content-inner {
+            width: auto; /* 內容定義寬度 */
+            min-width: 100vw; /* 不過每個slide至少佔滿一個viewport寬度 */
+            height: 100%;
+            overflow-y: auto;
+            padding: 0; /* 完全移除padding，讓內容填滿整個區域 */
+            box-sizing: border-box;
+            /* 恢復預設選取 */
+          }
+        }
+      }
     }
-  }
-
-  .content-slides {
-    display: flex;
-    height: 100%;
-    width: calc(200vw * 8); /* 雙倍寬度以實現無限循環 */
-  }
-
-  .content-slide {
-    width: auto;
-    height: 100%;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0; /* 移除padding，讓內容貼近viewport邊緣 */
-    box-sizing: border-box;
-  }
-
-  .content-inner {
-    width: auto; /* 移除 max-width 限制 */
-    min-width: 100vw;
-    height: 100%;
-    overflow-y: auto;
-    padding: 0; /* 完全移除padding，讓內容填滿整個區域 */
-    box-sizing: border-box;
-    /* 恢復預設選取 */
-  }
-
-  /* 為自定義HTML內容提供基本樣式 */
-  .content-inner :global(.custom-content) {
-    color: var(--grey-800);
-    box-sizing: border-box;
-    height: 100%;
-    /* 恢復預設選取 */
   }
 
   /* 下半部：專案卡片區域 */

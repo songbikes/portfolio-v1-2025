@@ -98,3 +98,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+html,
+body,
+*,
+*::before,
+*::after {
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* Internet Explorer 10+ */
+}
+*::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari, and Opera */
+}

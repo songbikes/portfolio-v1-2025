@@ -1,4 +1,10 @@
 /* digihi styling */
+.custom-content {
+  color: var(--grey-800);
+  box-sizing: border-box;
+  height: 100%;
+}
+
 .di-base {
   display: flex;
   align-items: end;
