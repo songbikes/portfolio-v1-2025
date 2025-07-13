@@ -2,12 +2,14 @@
 <script>
   import ProjectCard from './ProjectCard.svelte'
   import { imageUrls } from './UXNoteImageURL.js';
-  import '../styles/airnz.scss';
-  import '../styles/aboutme.scss';
-  import '../styles/uxnotes.css';
-  import '../styles/digihi.css';
+  import '../styles/digihi.scss';
+  import '../styles/macroactive.scss';
+  import '../styles/dacreed.scss';
   import '../styles/asobi.scss';
+  import '../styles/airnz.scss';
   import '../styles/trademe.scss';
+  import '../styles/uxnotes.scss';
+  import '../styles/aboutme.scss';
   
   export let projects = []
   
@@ -260,10 +262,9 @@ const UXNotes = `
       // demoUrl: 'https://example.com',
       // githubUrl: 'https://github.com',
       htmlContent: `
-        <div class="custom-content">
-          <h1>Dacreed</h1>
-          <h1>Placeholder</h1>
-          <img src="https://placehold.co/600x400" alt="Asobi Interior Design" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 20px;">
+        <div class="temp-content">
+          <h1>MacroActive</h1>
+          <h1>Work In Progress</h1>
         </div>
       `
     },
@@ -277,10 +278,9 @@ const UXNotes = `
       // demoUrl: 'https://example.com',
       // githubUrl: 'https://github.com',
       htmlContent: `
-        <div class="custom-content">
+        <div class="temp-content">
           <h1>Dacreed</h1>
-          <h1>Placeholder</h1>
-          <img src="https://placehold.co/600x400" alt="Asobi Interior Design" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 20px;">
+          <h1>Worok In Progress</h1>
         </div>
       `
     },
