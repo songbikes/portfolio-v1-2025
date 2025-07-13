@@ -419,18 +419,74 @@ const UXNotes = `
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF99oQaH7Fiso6r4wZNfEplMyUeb1vOa2LDnVxc',
       htmlContent: `
         <div class="trademeContanier">
-          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9fF8kgFampb2Icui3Bo6thfyzgaNnRdUOxHW5" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false"
-          class="kiwibird"
-          >
+          <div class="kiwiBirdContainer">
+            <h1>ENABLING COMPARE LISTINGS EXERCISE</h1>
 
-          
-          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9upYyKhwt4jNavY6SPXCcoW0lknfLxR9Fw2Qp" alt="Trade Me listing card checked compare" loading="lazy" draggable="false">
-          <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95OELPHueoRNUDBwuAnqspY6J0jyXVIb9aOdP" alt="Trade Me listing card unchecked compare" loading="lazy" draggable="false">
-          <h1>Trade Me</h1>
+            
+            <div class="listingCards">
+
+              <div class="textImgContainer">
+                <div class="sectionBg">
+                  <h4>
+                    Desktop Version
+                  </h4>
+                  <p>
+                    The compare listings feature enables users to select multiple listings and compare them side by side, facilitating informed decision-making. As the Watchlist feature is well-known domestically and Trade Me is widely used by Kiwis, adding another selector to the card as a new feature is expected to be well-received by users.
+                  </p>
+                </div>
+              </div>
+
+              <div class="textImgContainer">
+                <p>Add an item selector to the top-left corner of listing card</p>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95OELPHueoRNUDBwuAnqspY6J0jyXVIb9aOdP" alt="Trade Me listing card unchecked compare" loading="lazy" draggable="false">
+              </div>
+
+              <div class="textImgContainer">
+                <p>Just like the classic save item selector on the opposite side</p>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9upYyKhwt4jNavY6SPXCcoW0lknfLxR9Fw2Qp" alt="Trade Me listing card checked compare" loading="lazy" draggable="false">
+              </div>
+              
+              <div class="textImgContainer">
+                <p>A clickable kiwi bird pops up the page if selected more than 2 items</p>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9fF8kgFampb2Icui3Bo6thfyzgaNnRdUOxHW5" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false" class="kiwibird"
+                >
+              </div>
+              
+              <div class="textImgContainer">
+                <p>Listing detail cards pop up once clicking on the Kiwi bird</p>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF90hnguq99FdxzmYA6eiPQ83BNSDCZVqlRMn4U" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false" 
+                >
+              </div>
+
+              <div class="textImgContainer">
+                <div class="sectionBg">
+                  <h4>
+                    Mobile Version
+                  </h4>
+                  <p>
+                    Compare listings on mobile devices is a bit tricky if using the same approach as desktop in terms of programming and viewport size, so I suggest a different way to compare listings on mobile devices which is to compare items in the watchlist which technically can be easier. Should be a good idea AB test it with the desktop version.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="textImgContainer">
+                <p>Compare items saved in the watchlist</p>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95phcXfeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false" 
+                >
+              </div>
+              
+              <div class="textImgContainer">
+                <p>Tapping to navigate through details to compare items</p>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9gDDXIXsG8FEulVKqYjreILXOPzT4QRtws5vZ" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false" 
+                >
+              </div>
+              
+            </div>
           </div>
+    
+        </div>
       `
     },
-
     // UX Notes
     {
       id: 'project-g',
