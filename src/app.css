@@ -24,6 +24,10 @@
   --digihi-blue: #122e4e;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   margin: 0;
   padding: 0;

@@ -198,21 +198,38 @@ const UXNotes = `
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9vi5kVcTHbjBL8eOS9FpXnM5CGJDVyqQkZfso',
       demoUrl: 'https://digihi.io',
       htmlContent: `
-        <div class="custom-content di-base">
-          <h1 class="hero">WHERE THE TECH AND STARTUP PEOPLE TO SHINE.</h1>
+        <div class="digihiContainer">
+          <div class="digihiHeader">
+            <h1>WHERE THE TECH AND STARTUP PEOPLE TO SHINE.</h1>
+            <a href="https://digihi.io" target="_blank" rel="noopener noreferrer">
+              <button class="viewWebsiteButton">
+                Visit Website
+              </button>
+            </a>
+          </div>
           
-          <div class="di-hero-wrapper">
-            <div class="di-hero-text">
-              <div class="hero-text-group">
+          <div class="intro">
+            <div class="context">
+              <h3>Story</h3>
+              <p>
+                After attending several technology and startup events, I observed that event information is scattered across multiple platforms such as Humanitix, Eventbrite, Meetup and other websites, making it not very easy for users to find suitable events quickly. Additionally and interestingly, many rely on a Google Sheet to share event details, but its tabular format lacks filtering capabilities, is slow to update, and is not optimised for mobile browsing, significantly impacting efficiency
+              </p>
+              <p>
+                And there is not a platform specifically designed for the tech and startup community to share events, products, and services, which is crucial for busy entrepreneurs and investors to connect and seize business opportunities. So, I think I can try to build a website that centralises all these information and provides a better user experience
+              </p>
+            </div>
+
+            <div class="analysis">
+              <div class="analysisCard">
                 <p>What Problems </p>
                 <ul>
                   <li>Tech & startup events are on many websites</li>	
                   <li>Using Google Sheet to share events</li>	
-                  <li>For busy entrepreneurs and investors, the absence of a unified, efficient platform means missing critical business opportunities.</li>	
+                  <li>For busy entrepreneurs and investors, the absence of a unified, efficient platform means missing critical business opportunities</li>	
                 </ul>
               </div>
   
-              <div class="hero-text-group">
+              <div class="analysisCard">
                 <p>Why are they problems</p>
                 <ul>
                   <li>Lost opportunities for connection</li>	
@@ -221,7 +238,7 @@ const UXNotes = `
                 </ul>
               </div>
               
-              <div class="hero-text-group">
+              <div class="analysisCard">
                 <p>Remedies</p>
                 <ul>
                   <li>Build a website for tech and startup community</li>	
@@ -230,25 +247,69 @@ const UXNotes = `
                 </ul>
               </div>
                   
-              <div class="hero-text-group">
+              <div class="analysisCard">
                 <p>Why remedies works</p>
                 <ul>
                   <li>Website is by far the best way to find events</li>	
-                  <li>Essentially it' all about promotion</li>	
+                  <li>Essentially it's all about promotion</li>	
                   <li>And also about getting more opportunities</li>	
                 </ul>
               </div>
                     
-              <div class="hero-text-group">
+              <div class="analysisCard">
                 <p>Outcome</p>
                 <ul>
-                  <li>Developed a user-centric website with a seamless event browsing experience.</li>	
-                  <li>Users can easily post events, search for connections, and showcase products visually.</li>	
+                  <li>Developed a user-centric website with a seamless event browsing experience</li>	
+                  <li>Users can easily post events, search for connections, and showcase products visually</li>	
+                </ul>
+              </div>
+              
+              <div class="analysisCard">
+                <p>Opportunities</p>
+                <ul>
+                  <li>Form a community</li>	
+                  <li>Leverage events to add features that let people connect easier and promote themselves</li>	
+                  <li>Minimum fees for all the features on digiHi as I am the only one</li>	
                 </ul>
               </div>
             </div>
-            <h5>After attending several technology and startup events, I observed that event information is scattered across multiple platforms such as Humanitix, Eventbrite, Meetup and other websites, making it difficult for users to find suitable events quickly. Additionally, many rely on Google Sheets to share event details, but its tabular format lacks filtering capabilities, is slow to update, and is not optimised for mobile browsing, significantly impacting efficiency.</h5>
           </div>
+
+          <div class="intro">
+            <div class="context">
+              <h3>Direction & Features</h3>
+              <p>
+                A free online platform where you can showcase your products, find and post events, connect with people via your posts. No agents, no promo fees, only a tiny fees on charged events. Join digiHi to promote your business and products, find talents to resolve issues your have encountered, find startup and tech resources. Let's Come and say hi to people!
+              </p>
+              <p>
+                <strong>Events</strong> - Find and post events
+              </p>
+              <p>
+                <strong>Connect</strong> - Connect like-minded people or talents
+              </p>
+              <p>
+                <strong>Showcase</strong> - Post works, products or services
+              </p>
+            </div>
+          </div>
+
+          <div class="features">
+            <div class="featureCard">
+              <h3>Event</h3>
+              <p>Users can easily post events, search for connections, and showcase products visually.</p>
+            </div>
+            <div class="featureCard">
+              <h3>Connection</h3>
+              <p>Users can connect with others in the tech and startup community.</p>
+            </div>
+            <div class="featureCard">
+              <h3>Product & Service</h3>
+              <p>Users can showcase their products and services to a wider audience.</p>
+            </div>
+
+          </div>
+
+        </div>
         
       `
     },
@@ -259,12 +320,198 @@ const UXNotes = `
       description: 'Design Challenge - Retention & Engagement',
       tech: 'Figma',
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9ZtNIvdEhcNbi3ptFv0UHqy6Lxa1hoC5B4fPm',
-      // demoUrl: 'https://example.com',
-      // githubUrl: 'https://github.com',
+
       htmlContent: `
         <div class="temp-content">
-          <h1>MacroActive</h1>
-          <h1>Work In Progress</h1>
+          <div class="contentCard">
+            <div class="textContent">
+              <h3>MacroActive Design Brief</h3>
+              <p>
+                Design a next-generation health & fitness app that redefines member retention and engagement by harnessing the power of AI, predictive analytics, personalisation, and emerging technologies.
+              </p>
+              <p>
+                Think beyond existing platforms like MacroActive, MyFitnessPal, Fitbit, Strava, and Freeletics—envision something futuristic, innovative, and disruptive.
+              </p>
+              <p>
+                Consider incorporating features such as AI coaches, real-time biometrics, gamification, AR/VR experiences, or habit-forming psychology to shape the fitness journey over the next decade. Scope & Requirements: - User Retention & Engagement - AI & Personalization - Seamless User Experience - Innovation - Visual Appeal Deliverables
+              </p>
+            </div>
+          </div>
+          <div class="contentCard">
+            <div class="textContent">
+              <h3>Deliverables</h3>
+              <ol>
+                <li>
+                  <small>Wireframes & High-Fidelity UI Screens (in Figma or your preferred design tool)</small>
+                  </li>
+                  <li>
+                    <small>User Flow & Journey Mapping (highlighting engagement loops & retention strategies)</small> 
+                  </li>
+                  <li>
+                    <small>Key Retention Features (e.g., AI recommendations, gamification, habit tracking)</small>
+                  </li>
+                  <li>
+                    <small>A brief design rationale explaining how your UX choices support long-term engagement.</small>
+                  </li>
+                  <li>
+                    <small>Bonus (Optional, if time permits): An interactive prototype demonstrating your proposed engagement features.</small>
+                  </li>
+                </ol>
+              <h3>User Groups</h3>
+              <div class="userGroups">
+                <div class="userGroup">
+                  <p>
+                    Admin User (Creator)
+                  </p>
+                  <small>Entrepreneurs and Coaches, the admin role of the app</small>
+                </div>
+                <div class="userGroup">
+                  <p>
+                    Normal User (Follower)
+                  </p>
+                  <small>The users who use the app, and/or follow the creator on social media</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="h1Card">
+            <h1>DESIGN CHALLENGE PROPOSAL</h1>
+            <div class="contentCard">
+              <div class="textContent">
+                <h3>Objective</h3>
+                <p>
+                  VibeSync
+                </p>
+                <small>
+                  allows users to be like the person they admire
+                </small>
+                <p>
+                  Future Filter 
+                  </p>
+                <small>
+                  brings the future to users
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="contentCard">
+            <div class="textContent">
+              <h3>Information Architecture</h3>
+              <p>
+                VibeSync (Creator)
+              </p>
+              <small>
+                1.Create/Edit Routine (AI Suggestions or Manual)
+                2. Select the Legend routines from MacroActive (Charge by number?)
+                3. Publish & Share
+                4. See Follower Stats & Feedback Summary
+                5. Activity Analytics
+              </small>
+              <p>
+                VibeSync (Follower)
+              </p>
+              <small>
+                1. Explore: Creators & Legends (e.g., Kobe, Shohei Ohtani)
+                2. Subscribe / Follow
+                3. Daily Routine Timeline (with reminders)
+                4. Completion Tracker
+              </small>
+            
+              <p>
+                VibeSync
+              </p>
+              <small>
+                1. Selected a routine plan
+                2. Agree with camera access
+                3. Time Slider: Select time point weekly increment
+              </small>
+            </div>
+          </div>
+          
+          <div class="contentCard">
+            <div class="textContent">
+              <p>Admin User (Creator) Landing page</p>
+              <small>Creator/admin starts creating a VibeSync plan</small>
+            
+            </div>
+            <div class="imageContainer">
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9Ry6GXcNgs74InDt5Xxh3qfzVKEcPeOdMwuRi" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+          </div>
+
+          <div class="contentCard">
+            <div class="textContent">
+              <p>Ways to create plans</p>
+              <small>AI, manually or select Legend mode (redirect user to MacroActive portal)</small>
+            </div>
+            <div class="imageContainer">
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9jOWT0H6dbmNKiUAoW8gF4D6QLTZR3qeOE1la" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+          </div>
+          
+          <div class="contentCard">
+            <div class="textContent">
+              <p>AI Plan Creating page</p>
+              <small>If created by AI, view and edit the results</small>
+            </div>
+            <div class="imageContainer">
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9bivu3p7ZTOgBp5SZ7jHEl8UzLMRaiD1WY9Cs" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+          </div>
+          
+          <div class="contentCard">
+            <div class="textContent">
+              <p>Manually Creating page</p>
+              <small>Click Publish → appears in follower's VibeSync page</small>
+            </div>
+            <div class="imageContainer">
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95FDTHDeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" alt="Air NZ Design" loading="lazy" draggable="false"/>
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9D1s1stQFMXBTu8tkExerzApo6jRInSh2JaU9" alt="Air NZ Design" loading="lazy" draggable="false"/>
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9nRgB3E3cD3RIOQ6ljPp0fUmZYFs5zEyhJoVC" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+          </div>
+          
+          <div class="contentCard">
+            <div class="textContent">
+              <p>Normal User (Follower) VibeSync page</p>
+              <small>Browsing VibeSync page, choosing a plan to view or subscribe if Legend mode</small>
+            </div>
+            <div class="imageContainer">
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9RPjiT3gs74InDt5Xxh3qfzVKEcPeOdMwuRiT" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+          </div>
+          <div class="contentCard">
+            <div class="textContent">
+              <p>Viewing Plan</p>
+              <small>Viewing details</small>
+            </div>
+            <div class="imageContainer">
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9kZRmSyCh4TPYHUfIwknrimsoezySMpZ319d5" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+          </div>
+          <div class="contentCard">
+            <div class="textContent">
+              <p>Future Filter</p>
+              <small>Activating Future Filter to view future self following the plan</small>
+            </div>
+            <div class="imageContainer">
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9kSj91gCh4TPYHUfIwknrimsoezySMpZ319d5" alt="Air NZ Design" loading="lazy" draggable="false"/>
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9lKm0AifbsRQD5fXaHS719xZGjI3KUcwrEnL6" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+          </div>
+          <div class="contentCard">
+            <div class="textContent">
+              <p>Notification</p>
+              <small>Following plan and set up widget and notification</small>
+            </div>
+            <div class="imageContainer">
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9tLDOcfdgGd3OZlcaJA0epkI8hHB9y1xC7rwM" alt="Air NZ Design" loading="lazy" draggable="false"/>
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9DfJm82QFMXBTu8tkExerzApo6jRInSh2JaU9" alt="Air NZ Design" loading="lazy" draggable="false"/>
+              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9OxYPdRkPrRGJAj8eImFK2TwD1XSiya6cxbUZ" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            </div>
+          </div>
         </div>
       `
     },
@@ -278,9 +525,17 @@ const UXNotes = `
       // demoUrl: 'https://example.com',
       // githubUrl: 'https://github.com',
       htmlContent: `
-        <div class="temp-content">
-          <h1>Dacreed</h1>
-          <h1>Worok In Progress</h1>
+        <div class="dacreedOverlay">
+          <h2>Password Required to view this project</h2>
+          <input 
+            type="password" 
+            placeholder="password required for this project" 
+            class="passwordInput"
+          >
+        </div>
+        <div class="dacreedContainer">
+          <h1>UX/UI REVISION ON DESKTOP AND MOBILE DEVICES</h1>
+          <h3>Worok In Progress</h3>
         </div>
       `
     },
@@ -638,9 +893,9 @@ const UXNotes = `
             
             <section class="about-section">
               <h2>About</h2>
-              <p class="about-text">Hi there! I am pizza and burger lover, and the guy who built and designed digiHi, a platform for the tech and startup people. I am building other new stuff atm as I am passionate about building products. Contact me if you want to work with me or if you want me work for you. Cheers Have a great day!</p><br/>
-              <p class="about-text"> Otherwise, I just shifted my career from architecture to product design in 2024 both are about collaboration and listening and communication and creativity and usability and user-centric design (Well, architecture is more complex tbh). These skills makes me proud of myself.</p><br/>
-              <p class="about-text">I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS and Lucide mostly, still pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset. </p>
+              <p class="about-text">Hi there! I just shifted my career from architecture to product design in mid 2024. Both careers are about collaboration and listening and communication and creativity and usability and user-centric design. These skills makes me proud of myself.</p><br/>
+              <p class="about-text">I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS mostly, pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset. I am constantly working on a few side hustles, trying to build some cool products!</p><br/>
+              <p class="about-text">Otherwise, I love pizza and burgers. Contact me if you want me share my food maps with you. Cheers</p>
             </section>
             
             <section class="experience-section">
@@ -651,8 +906,8 @@ const UXNotes = `
                     <span class="date-range">Aug.2024<br>Present</span>
                   </div>
                   <div class="timeline-content">
-                    <h3>Product Designer / Founder <span class="company">@ digiHi</span></h3>
-                    <p>Designed and built digiHi from scratch based on some conversation in a few startup events and lens of observation</p>
+                    <h3>Freelance <span class="company">@ digiHi</span></h3>
+                    <p>Designed and built digiHi from scratch based on some conversation in a few startup events and am building another app now</p>
                   </div>
                 </div>
                 
