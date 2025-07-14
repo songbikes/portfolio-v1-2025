@@ -19,6 +19,7 @@ let selectedProjectId = null
   let isDown = false
   let startX
   let scrollLeft
+  let currentProjectIndex = 0;
 
   // 慣性滾動變數
   let velocity = 0
@@ -174,8 +175,28 @@ let selectedProjectId = null
     else if (currentScroll < 0) {
       contentScrollContainer.scrollLeft = maxScroll + currentScroll
     }
-  }
 
+    // === 修正：根據每個 slide 的實際寬度和位置計算最可見的 index ===
+    const slides = contentScrollContainer.querySelectorAll('.content-slide');
+    const containerLeft = contentScrollContainer.scrollLeft;
+    const containerWidth = contentScrollContainer.offsetWidth;
+    let maxVisible = 0;
+    let bestIndex = 0;
+    slides.forEach((slide, idx) => {
+      // 只計算前 displayProjects.length 個（忽略複製的部分）
+      if (idx >= displayProjects.length) return;
+      const slideLeft = slide.offsetLeft;
+      const slideRight = slideLeft + slide.offsetWidth;
+      const visibleLeft = Math.max(slideLeft, containerLeft);
+      const visibleRight = Math.min(slideRight, containerLeft + containerWidth);
+      const visibleWidth = Math.max(0, visibleRight - visibleLeft);
+      if (visibleWidth > maxVisible) {
+        maxVisible = visibleWidth;
+        bestIndex = idx;
+      }
+    });
+    currentProjectIndex = bestIndex;
+  }
 // 產生每排最多4張
 const UXNotes = `
   <div class="UXSection">
@@ -1049,6 +1070,7 @@ const UXNotes = `
           <ProjectCard
             {project}
             onSelect={selectProject}
+            active={idx === currentProjectIndex}
           />
         {/each}
       </div>
@@ -1162,6 +1184,14 @@ const UXNotes = `
         width: max-content;
         align-items: flex-end;
         box-sizing: border-box;
+        /* active 卡片樣式由 ProjectCard 控制，不在 grid 上 */
+        // .active {
+        //   background-color: #222e3a;
+        //   color: #fff;
+        //   box-shadow: 0 4px 24px 0 rgba(34,46,58,0.18);
+        //   border-radius: 1.2em;
+        //   transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+        // }
       }
     }
   }

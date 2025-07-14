@@ -50,6 +50,7 @@
     position: relative;
     transform-origin: bottom center; /* 從底部中心開始變化 */
     box-sizing: border-box;
+    background: var(--grey-900);
     filter: 
       grayscale(0.8) 
       saturate(0.2);
@@ -57,8 +58,7 @@
   }
 
 
-  .project-card:hover,
-  .project-card.active {
+  .project-card:hover {
     width: calc(12.5vw * 1.2);
     height: calc(12.5vw * 1.2);
     z-index: 1000; /* 提高z-index確保遮擋 */
@@ -66,8 +66,7 @@
       grayscale(0)
       saturate(1);
   }
-  .project-card:hover .project-image img,
-  .project-card.active .project-image img {
+  .project-card:hover .project-image img {
     transform: translateY(40%);
     transition: transform 0.3s cubic-bezier(0.4, 2, 0.6, 1);
   }
@@ -75,7 +74,7 @@
   .project-image {
     width: 100%;
     height: 100%;
-    background: var(--grey-900);
+    // background: var(--grey-900);
     // overflow: hidden;
     display: flex;
     justify-content: center;
@@ -135,12 +134,10 @@
   }
 
 
-
-  /* .project-tech {
-    margin: 0;
-    font-size: 0.75rem;
+  .project-card.active {
+    background-color: var(--grey-800);
     color: var(--grey-900);
-    background-color: var(--grey-300);
-    font-weight: 500;
-  } */
+    filter: grayscale(0) saturate(1);
+    z-index: 2;
+  }
 </style>
