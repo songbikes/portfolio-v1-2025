@@ -4,9 +4,10 @@
   background-color: var(--grey-900);
   color: var(--grey-900);
   display: flex;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+  // user-select: none;
+  // -webkit-user-select: none;
+  // -moz-user-select: none;
+  // -ms-user-select: none;
 
   .h1Card {
     width: clamp(320px, 50vw, 705px);

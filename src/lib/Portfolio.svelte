@@ -376,10 +376,10 @@ const UXNotes = `
           </div>
           
           <div class="h1Card">
-            <h1>DESIGN CHALLENGE PROPOSAL</h1>
+            <h1>DESIGN CHALLENGE RETENTION & ENGAGEMENT</h1>
             <div class="contentCard">
               <div class="textContent">
-                <h3>Objective</h3>
+                <h3>Proposed Ideas</h3>
                 <p>
                   VibeSync
                 </p>
@@ -1064,6 +1064,10 @@ const UXNotes = `
     display: flex;
     flex-direction: column;
     position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
 
   /* 上半部：內容展示區域 */
