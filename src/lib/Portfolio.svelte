@@ -347,14 +347,14 @@ const UXNotes = `
           <div class="contentCard">
             <div class="textContent">
               <h3>MacroActive Design Brief</h3>
-              <p>
+              <p class="greyText">
                 Design a next-generation health & fitness app that redefines member retention and engagement by harnessing the power of AI, predictive analytics, personalisation, and emerging technologies.
               </p>
-              <p>
-                Think beyond existing platforms like MacroActive, MyFitnessPal, Fitbit, Strava, and Freeletics—envision something futuristic, innovative, and disruptive.
+              <p class="greyText">
+                <strong>Think beyond existing platforms</strong> like MacroActive, MyFitnessPal, Fitbit, Strava, and Freeletics—envision something futuristic, innovative, and disruptive.
               </p>
-              <p>
-                Consider incorporating features such as AI coaches, real-time biometrics, gamification, AR/VR experiences, or habit-forming psychology to shape the fitness journey over the next decade. Scope & Requirements: - User Retention & Engagement - AI & Personalization - Seamless User Experience - Innovation - Visual Appeal Deliverables
+              <p class="greyText">
+                Consider incorporating features such as AI coaches, real-time biometrics, gamification, AR/VR experiences, or habit-forming psychology to shape the fitness journey over the next decade. Scope & Requirements: - <strong>User Retention & Engagement</strong> - AI & Personalization - Seamless User Experience - Innovation - Visual Appeal Deliverables
               </p>
             </div>
           </div>
@@ -362,19 +362,19 @@ const UXNotes = `
             <div class="textContent">
               <h3>Deliverables</h3>
               <ol>
-                <li>
-                  <small>Wireframes & High-Fidelity UI Screens (in Figma or your preferred design tool)</small>
+                <li class="greyText">
+                  <small><strong>Wireframes & High-Fidelity UI Screens</strong> (in Figma or your preferred design tool)</small>
                   </li>
-                  <li>
-                    <small>User Flow & Journey Mapping (highlighting engagement loops & retention strategies)</small> 
+                  <li class="greyText">
+                    <small><strong>User Flow & Journey Mapping</strong> (highlighting engagement loops & retention strategies)</small> 
                   </li>
-                  <li>
-                    <small>Key Retention Features (e.g., AI recommendations, gamification, habit tracking)</small>
+                  <li class="greyText">
+                    <small><strong>Key Retention Features</strong> (e.g., AI recommendations, gamification, habit tracking)</small>
                   </li>
-                  <li>
-                    <small>A brief design rationale explaining how your UX choices support long-term engagement.</small>
+                  <li class="greyText">
+                    <small>A brief <strong>design rationale</strong> explaining how your UX choices support long-term engagement.</small>
                   </li>
-                  <li>
+                  <li class="greyText">
                     <small>Bonus (Optional, if time permits): An interactive prototype demonstrating your proposed engagement features.</small>
                   </li>
                 </ol>
@@ -382,13 +382,13 @@ const UXNotes = `
               <div class="userGroups">
                 <div class="userGroup">
                   <p>
-                    Admin User (Creator)
+                    Admin User <span class="greyText">(Creator)</span>
                   </p>
                   <small>Entrepreneurs and Coaches, the admin role of the app</small>
                 </div>
                 <div class="userGroup">
                   <p>
-                    Normal User (Follower)
+                    Normal User <span class="greyText">(Follower)</span>
                   </p>
                   <small>The users who use the app, and/or follow the creator on social media</small>
                 </div>
@@ -397,22 +397,22 @@ const UXNotes = `
           </div>
           
           <div class="h1Card">
-            <h1>DESIGN CHALLENGE RETENTION & ENGAGEMENT</h1>
+            <h1>DESIGN CHALLENGE <i><strong>RETENTION & ENGAGEMENT</strong></i></h1>
             <div class="contentCard">
               <div class="textContent">
                 <h3>Proposed Ideas</h3>
                 <p>
-                  VibeSync
+                  VibeSync:
+                  <small>
+                    allows users to be like the person they admire
+                  </small>
                 </p>
-                <small>
-                  allows users to be like the person they admire
-                </small>
                 <p>
-                  Future Filter 
+                  Future Filter: 
+                  <small>
+                    brings the future to users
+                  </small>
                   </p>
-                <small>
-                  brings the future to users
-                </small>
               </div>
             </div>
           </div>
