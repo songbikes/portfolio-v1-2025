@@ -221,12 +221,7 @@ const UXNotes = `
       htmlContent: `
         <div class="digihiContainer">
           <div class="digihiHeader">
-            <h1>WHERE THE TECH AND STARTUP PEOPLE TO SHINE.</h1>
-            <a href="https://digihi.io" target="_blank" rel="noopener noreferrer">
-              <button class="viewWebsiteButton">
-                Visit Website
-              </button>
-            </a>
+            <h1>TURNING A GOOGLE SHEETS TO A WEBSITE</h1>
           </div>
           
           <div class="intro">
@@ -240,7 +235,86 @@ const UXNotes = `
               </p>
             </div>
 
+            <div class="videoContext">
+              <video 
+                controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
+                <source 
+                  src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9tIYWbSdgGd3OZlcaJA0epkI8hHB9y1xC7rwM" 
+                  type="video/mp4"
+                >
+              </video>
+                  
+              <video 
+                controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
+                <source 
+                  src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9HIq2GK6nNL4jdyCfwVonh2kTOxib6tXvWlgs" 
+                  type="video/mp4"
+                >
+              </video>
+              <div class="textOverVideo">
+                <h1>
+                  Before
+                </h1>
+                <h1>
+                  After
+                </h1>
+              </div>
+            </div>
+
             <div class="analysis">
+              <div class="context">
+                <h3>
+                 Key UI and Info
+                </h3>
+                <ul>
+                  <li>Responsiveness</li>
+                  <li>Date, Time, Location, Event Title and Organiser</li>
+                  <li>Filters</li>
+                  <li>Colours</li>
+                </ul>
+              </div>
+
+              <div class="analysisCard">
+                <p>Responsiveness</p>
+                <ul>
+                  <li>Dedicated event card width and horizontal scrolling making viewing on mobile easier and desktop easier with consistent browsing experience</li>	
+                </ul>
+              </div>
+
+              <div class="analysisCard">
+                <p>Key Info</p>
+                <ul>
+                  <li>Keeping key information such as date, time, location, event title and organiser in the card to make it easy for users to find events</li>	
+                </ul>
+              </div>
+              
+              <div class="analysisCard">
+                <p>Filters</p>
+                <ul>
+                  <li>Integrated filters and search bar to help users quickly find events and clean up the interface</li>	
+                </ul>
+              </div>
+              
+              <div class="analysisCard">
+                <p>Colours</p>
+                <ul>
+                  <li>Using blue to highlight the most important CTA buttons on the page</li>	
+                </ul>
+              </div>
+            </div>
+            
+            <div class="analysis lightTheme">
+              <div class="context">
+                <h3>
+                  Futre Directions
+                </h3>
+                <p>
+                  This has been my side project for a while as I re-built it a few times for my own learning purposes. I have been using it to learn new technologies and frameworks, such as Next.js, Tailwind CSS, Convex, Clerk, and Stripe. I have also been using it to practice my design skills and user experience principles. I am still working on it and trying to make it better and more useful for the tech and startup community.
+                </p>
+                <p>
+                  I am still working on it and trying to make it better and more useful for the tech and startup community. And I am planning to bring this to people and discover opportunities to make this a real product by conducting interviews and research.
+                </p>
+              </div>
               <div class="analysisCard">
                 <p>What Problems </p>
                 <ul>
@@ -255,7 +329,6 @@ const UXNotes = `
                 <ul>
                   <li>Lost opportunities for connection</li>	
                   <li>Google Sheets offers unfriendly for browsing events</li>	
-                  <li>An </li>	
                 </ul>
               </div>
               
@@ -294,40 +367,6 @@ const UXNotes = `
                 </ul>
               </div>
             </div>
-          </div>
-
-          <div class="intro">
-            <div class="context">
-              <h3>Direction & Features</h3>
-              <p>
-                A free online platform where you can showcase your products, find and post events, connect with people via your posts. No agents, no promo fees, only a tiny fees on charged events. Join digiHi to promote your business and products, find talents to resolve issues your have encountered, find startup and tech resources. Let's Come and say hi to people!
-              </p>
-              <p>
-                <strong>Events</strong> - Find and post events
-              </p>
-              <p>
-                <strong>Connect</strong> - Connect like-minded people or talents
-              </p>
-              <p>
-                <strong>Showcase</strong> - Post works, products or services
-              </p>
-            </div>
-          </div>
-
-          <div class="features">
-            <div class="featureCard">
-              <h3>Event</h3>
-              <p>Users can easily post events, search for connections, and showcase products visually.</p>
-            </div>
-            <div class="featureCard">
-              <h3>Connection</h3>
-              <p>Users can connect with others in the tech and startup community.</p>
-            </div>
-            <div class="featureCard">
-              <h3>Product & Service</h3>
-              <p>Users can showcase their products and services to a wider audience.</p>
-            </div>
-
           </div>
 
         </div>

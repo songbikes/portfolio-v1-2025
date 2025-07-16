@@ -50,10 +50,34 @@
     align-items: center;
     position: relative;
     height: 100%;
+    width: auto;
     background-color: var(--grey-900);
 
+    .videoContext {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      video {
+        border-radius: 0;
+        height: 100%;
+        width: auto;
+        max-width: 700px;
+        // margin: 1rem 0;
+      }
+
+      .textOverVideo {
+        position: absolute;
+        top: 48%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        mix-blend-mode: difference;
+      }
+    }
+
     .context {
-      max-width: 300px;
+      width: 300px;
       padding: 0.25rem;
       height: 100%;
 
@@ -65,6 +89,17 @@
         font-size: 1.5rem;
         color: var(--grey-100);
       }
+
+      .reasoningText {
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: var(--grey-500);
+
+        small {
+          display: block;
+          margin: 0.5rem 0;
+        }
+      }
     }
 
     .analysis {
@@ -73,6 +108,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
+      padding: 0 1rem;
 
       .analysisCard {
         display: flex;
@@ -83,19 +119,29 @@
         height: 50%;
         width: auto;
         aspect-ratio: 1 / 1;
-        background-color: var(--grey-900);
+
         transition: all 0.3s ease-in-out;
 
         &:hover {
           background-color: var(--grey-800);
+          transform: scale(1.01);
         }
 
         p {
           text-align: center;
           font-size: 1.2rem;
-          color: var(--grey-100);
           font-weight: 500;
         }
+      }
+    }
+    .lightTheme {
+      background-color: var(--grey-100);
+      color: var(--grey-900);
+      h3 {
+        color: var(--grey-900);
+      }
+      .analysisCard:hover {
+        background-color: var(--grey-200);
       }
     }
   }
