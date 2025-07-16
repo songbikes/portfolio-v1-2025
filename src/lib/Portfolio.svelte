@@ -586,16 +586,11 @@ const UXNotes = `
       // githubUrl: 'https://github.com',
       htmlContent: `
         <div class="dacreedOverlay">
-          <h2>Password Required to view this project</h2>
-          <input 
-            type="password" 
-            placeholder="password required for this project" 
-            class="passwordInput"
-          >
+        
         </div>
         <div class="dacreedContainer">
-          <h1>UX/UI REVISION ON DESKTOP AND MOBILE DEVICES</h1>
-          <h3>Worok In Progress</h3>
+          <h1>UX/UI REVISION ON DESKTOP & MOBILE DEVICES</h1>
+          <h3>Limited Access for Confidential</h3>
         </div>
       `
     },
@@ -953,9 +948,9 @@ const UXNotes = `
             
             <section class="about-section">
               <h2>About</h2>
-              <p class="about-text">Hi there! I just shifted my career from architecture to product design in mid 2024. Both careers are about collaboration and listening and communication and creativity and usability and user-centric design. These skills makes me proud of myself.</p><br/>
-              <p class="about-text">I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS mostly, pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset. I am constantly working on a few side hustles, trying to build some cool products!</p><br/>
-              <p class="about-text">Otherwise, I love pizza and burgers. Contact me if you want me share my food maps with you. Cheers</p>
+              <p class="about-text">Hi there! I just shifted my career from architecture to product design in mid 2024. Both careers focus on collaboration and listening and communication and creativity and usability and user-centric design. These skills makes me proud of myself.</p><br/>
+              <p class="about-text">I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS mostly, pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset.</p><br/>
+              <p class="about-text">Otherwise, I love pizza and burgers. Contact me if you want me share my food maps with you. And I am constantly working on a few side hustles, like digitHi listed on this website and another one about animals, trying to build some useful products! Cheers</p>
             </section>
             
             <section class="experience-section">
@@ -966,8 +961,8 @@ const UXNotes = `
                     <span class="date-range">Aug.2024<br>Present</span>
                   </div>
                   <div class="timeline-content">
-                    <h3>Freelance <span class="company">@ digiHi</span></h3>
-                    <p>Designed and built digiHi from scratch based on some conversation in a few startup events and am building another app now</p>
+                    <h3>Freelance <span class="company">@ my desk</span></h3>
+                    <p>Designed and built digiHi from scratch based on some conversation in a few startup events, and am building another app, and this portfolio website</p>
                   </div>
                 </div>
                 
@@ -987,7 +982,7 @@ const UXNotes = `
                   </div>
                   <div class="timeline-content">
                     <h3>Architectural Technician <span class="company">@ Assemble</span></h3>
-                    <p>BC & RC architecture documentation and code compliance.</p>
+                    <p>BC & RC architecture documentation and code compliance, experienced in both residential and commercial projects</p>
                   </div>
                 </div>
                 
@@ -997,7 +992,7 @@ const UXNotes = `
                   </div>
                   <div class="timeline-content">
                     <h3>Assistant Tutor <span class="company">@ Unitec</span></h3>
-                    <p>Assisted with lecturers and students to be successful</p>
+                    <p>Assisted architecture lecturers and students to be successful in and outside class</p>
                   </div>
                 </div>
                 
