@@ -963,9 +963,9 @@ const UXNotes = `
             
             <section class="about-section">
               <h2>About</h2>
-              <p class="about-text">Hi there! I just shifted my career from architecture to product design in mid 2024. Both careers focus on collaboration and listening and communication and creativity and usability and user-centric design. These skills makes me proud of myself.</p><br/>
+              <p class="about-text">Hi there! I just shifted my career from architecture to product design in mid 2024. Both careers focus on collaboration and listening and communication and creativity and usability and user-centric design. These skills make me proud of myself.</p><br/>
               <p class="about-text">I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS mostly, pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset.</p><br/>
-              <p class="about-text">Otherwise, I love pizza and burgers. Contact me if you want me share my food maps with you. And I am constantly working on a few side hustles, like digitHi listed on this website and another one about animals, trying to build some useful products! Cheers</p>
+              <p class="about-text">Otherwise, I love pizza and burgers. Contact me if you want me to share my food maps with you. And I am constantly working on a few side hustles, like digitHi listed on this website and another one about animals, trying to build some useful products! Cheers</p>
             </section>
             
             <section class="experience-section">
