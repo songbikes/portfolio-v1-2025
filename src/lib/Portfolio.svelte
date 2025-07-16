@@ -221,7 +221,7 @@ const UXNotes = `
       htmlContent: `
         <div class="digihiContainer">
           <div class="digihiHeader">
-            <h1>TURNING A GOOGLE SHEETS TO A WEBSITE</h1>
+            <h1>TURNING A GOOGLE SHEETS TO A WEBSITE - SIDE PROJECT</h1>
           </div>
           
           <div class="intro">
@@ -590,7 +590,7 @@ const UXNotes = `
         </div>
         <div class="dacreedContainer">
           <h1>UX/UI REVISION ON DESKTOP & MOBILE DEVICES</h1>
-          <h3>Limited Access for Confidential</h3>
+          <h3>Limited Access due to Confidential Agreement</h3>
         </div>
       `
     },
