@@ -206,7 +206,10 @@ const UXNotes = `
   </div>
 `;
 
-
+      //  <div class="dacreedOverlay">
+      //     <h1>UX/UI REVISION ON DESKTOP & MOBILE DEVICES</h1>
+      //     <h3>Limited Access due to Confidential Agreement</h3>
+      //   </div>
 
   // 範例專案資料 - 使用HTML內容以便完全自由編輯
   const defaultProjects = [
@@ -221,17 +224,18 @@ const UXNotes = `
       htmlContent: `
         <div class="digihiContainer">
           <div class="digihiHeader">
-            <h1>TURNING A GOOGLE SHEETS TO A WEBSITE - SIDE PROJECT</h1>
-          </div>
+            <h1><i>FROM A GOOGLE SHEETS TO A WEBSITE</i></h1>
+            <p>- SIDE PROJECT</p>
+            </div>
           
           <div class="intro">
             <div class="context">
               <h3>Story</h3>
               <p>
-                After attending several technology and startup events, I observed that event information is scattered across multiple platforms such as Humanitix, Eventbrite, Meetup and other websites, making it not very easy for users to find suitable events quickly. Additionally and interestingly, many rely on a Google Sheet to share event details, but its tabular format lacks filtering capabilities, is slow to update, and is not optimised for mobile browsing, significantly impacting efficiency
+                After attending several tech and startup events in NZ, I found a spreadsheet on the internet. Interestingly, many rely on a Google Sheet to share events (as shown on the right), but its tabular format lacks filtering capabilities, is slow to update, and is not optimised for mobile browsing, significantly impacting efficiency and legibility.
               </p>
               <p>
-                And there is not a platform specifically designed for the tech and startup community to share events, products, and services, which is crucial for busy entrepreneurs and investors to connect and seize business opportunities. So, I think I can try to build a website that centralises all these information and provides a better user experience
+                So, the mission is to build a event website, and it must be very fun if I can build it and help them improve this event finding experience.
               </p>
             </div>
 
@@ -309,60 +313,27 @@ const UXNotes = `
                   Futre Directions
                 </h3>
                 <p>
-                  This has been my side project for a while as I re-built it a few times for my own learning purposes. I have been using it to learn new technologies and frameworks, such as Next.js, Tailwind CSS, Convex, Clerk, and Stripe. I have also been using it to practice my design skills and user experience principles. I am still working on it and trying to make it better and more useful for the tech and startup community.
+                  This has been my side project for a while as I re-built it a few times for my own learning purposes, and wanting to make sure its very reliable. Also I have been using it to learn new tools, such as Next.js, Tailwind CSS, Convex, Clerk, and Stripe. As well as improving my UX/UI skills. 
                 </p>
                 <p>
-                  I am still working on it and trying to make it better and more useful for the tech and startup community. And I am planning to bring this to people and discover opportunities to make this a real product by conducting interviews and research.
+                  I am still working on it and trying to make it better and more useful for the tech and startup community. I am about to bring this to people and discover opportunities to make this a real product by conducting interviews and research soon. And I have some rought thoughts about it showing on the right hand side.
                 </p>
               </div>
-              <div class="analysisCard">
-                <p>What Problems </p>
-                <ul>
-                  <li>Tech & startup events are on many websites</li>	
-                  <li>Using Google Sheet to share events</li>	
-                  <li>For busy entrepreneurs and investors, the absence of a unified, efficient platform means missing critical business opportunities</li>	
-                </ul>
-              </div>
-  
-              <div class="analysisCard">
-                <p>Why are they problems</p>
-                <ul>
-                  <li>Lost opportunities for connection</li>	
-                  <li>Google Sheets offers unfriendly for browsing events</li>	
-                </ul>
-              </div>
-              
-              <div class="analysisCard">
-                <p>Remedies</p>
-                <ul>
-                  <li>Build a website for tech and startup community</li>	
-                  <li>A quicker way to build connections</li>	
-                  <li>A place to showcase themselves</li>	
-                </ul>
-              </div>
-                  
-              <div class="analysisCard">
-                <p>Why remedies works</p>
-                <ul>
-                  <li>Website is by far the best way to find events</li>	
-                  <li>Essentially it's all about promotion</li>	
-                  <li>And also about getting more opportunities</li>	
-                </ul>
-              </div>
-                    
-              <div class="analysisCard">
-                <p>Outcome</p>
-                <ul>
-                  <li>Developed a user-centric website with a seamless event browsing experience</li>	
-                  <li>Users can easily post events, search for connections, and showcase products visually</li>	
-                </ul>
-              </div>
-              
+                            
               <div class="analysisCard">
                 <p>Opportunities</p>
                 <ul>
                   <li>Form a community</li>	
                   <li>Leverage events to add features that let people connect easier and promote themselves</li>	
+                  <li>Minimum fees for all the features on digiHi as I will be likely the only one behind this platform</li>	
+                </ul>
+              </div>
+              
+              <div class="analysisCard">
+                <p>Thoughts</p>
+                <ul>
+                  <li>Over time I realise, this website a good-to-have but necessary</li>	
+                  <li></li>	
                   <li>Minimum fees for all the features on digiHi as I am the only one</li>	
                 </ul>
               </div>
@@ -436,7 +407,14 @@ const UXNotes = `
           </div>
           
           <div class="h1Card">
-            <h1>DESIGN CHALLENGE <i><strong>RETENTION & ENGAGEMENT</strong></i></h1>
+            <h1>
+              DESIGN CHALLENGE 
+              <i>
+                <strong>
+                  RETENTION & ENGAGEMENT
+                </strong>
+              </i>
+            </h1>
             <div class="contentCard">
               <div class="textContent">
                 <h3>Proposed Ideas</h3>
@@ -582,16 +560,48 @@ const UXNotes = `
       description: 'Professional Development Platform',
       tech: 'Figma',
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9VlCXU5DZK8MN6L24SBxf1eahlQdu9wJOTHGy',
-      // demoUrl: 'https://example.com',
-      // githubUrl: 'https://github.com',
+
       htmlContent: `
-        <div class="dacreedOverlay">
+      <div class="dacreedContainer">
         
+        <div class="first">
+          <h1>
+            CREATING MOBILE & DESKTOP APP FROM A CONCEPT DESIGN THRU UX/UI
+          </h1>
         </div>
-        <div class="dacreedContainer">
-          <h1>UX/UI REVISION ON DESKTOP & MOBILE DEVICES</h1>
-          <h3>Limited Access due to Confidential Agreement</h3>
+       
+        <div class="second">
+          <img 
+            src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9piFlGxHSYPxyMGr8L71fsOX20amW9izjBJw3" 
+            alt="Dacreed Design" loading="lazy" draggable="false"
+            class="before"
+          />
+          <img 
+            src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9DrRv7wQFMXBTu8tkExerzApo6jRInSh2JaU9" 
+            alt="Dacreed Design" loading="lazy" draggable="false"
+            class="after"
+          />
+          <img 
+            src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF94rxoACpSUHLhJ9TuE2F7a6irtXPmdkoZ3eBM" 
+            alt="Dacreed Design" loading="lazy" draggable="false"
+            class="afterMobile m1"
+          />
+          <img 
+            src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF99TPD2AFiso6r4wZNfEplMyUeb1vOa2LDnVxc" 
+            alt="Dacreed Design" loading="lazy" draggable="false"
+            class="afterMobile m2"
+          />
         </div>
+        
+        <div class="third">
+          <img 
+            src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9ykNih0VAIbdapqGJgnv7BC4u31kzD5oVYmPF" 
+            alt="Dacreed Design" loading="lazy" draggable="false"
+            class="flowchart"
+          />
+        </div>
+          
+      </div>
       `
     },
     // asobi
@@ -605,10 +615,14 @@ const UXNotes = `
       // githubUrl: 'https://github.com',
       htmlContent: `
       <div class="asobiContainer">
-        <h1>ASOBI WAS MY LITTLE INTERIOR DESIGN COMPANY REPRESENTS SPATIAL WORKS</h1>
+        <div class="asobiHeader">
+          <h1>
+            ASOBI WAS MY LITTLE INTERIOR DESIGN COMPANY REPRESENTS SPATIAL WORKS
+          </h1>
+        </div>
         <div class="designReasoning">
           <div class="designReasoningContent">
-            <h2>Reasoning my design!</h2>
+            <h2>Design Objective</h2>
             <p>The mission is to figure out a way to display my works and the content doesn't seem to be too little. Because I didn't organise my photos very well and am not good at taking photos hence there are not many facinating nor heaps of photos to illustrate an image showing I am a cool designer, I have a great business. Responsiveness design is another key consideraion and using my preferred dark theme making it easier with my eyes same as 99% of my own stuff.</p>
             <p>So I decided to centralise everything and leave a huge white space and have a special nav panel on the bottom right corner giving navigation a bit of fun</p>
             <a href="https://asobi.tw" target="_blank" rel="noopener noreferrer">
@@ -640,7 +654,12 @@ const UXNotes = `
  
       htmlContent: `
         <div class="AirNZContainer">
-          <h1>UI & USER FLOW REVISION EXERCISE</h1>
+          <div class="AirNZHeader">
+            <h1>
+              UI & USER FLOW REVISION
+            </h1>
+             <p>- EXERCISE</p>
+          </div>
           
           <video class="AirNZVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
             <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9kah9UDCh4TPYHUfIwknrimsoezySMpZ319d5" type="video/mp4"
@@ -848,7 +867,12 @@ const UXNotes = `
       htmlContent: `
         <div class="trademeContanier">
           <div class="kiwiBirdContainer">
-            <h1>ENABLING COMPARE LISTINGS EXERCISE</h1>
+            <div class="titleContainer">
+              <h1>
+                ENABLING COMPARE LISTINGS
+              </h1>
+              <p>- EXERCISE</p>
+            </div>
 
             
             <div class="listingCards">
@@ -914,15 +938,6 @@ const UXNotes = `
     
         </div>
       `
-    },
-    // UX Notes
-    {
-      id: 'project-g',
-      title: 'UX Notes',
-      description: 'I need notes to help me remember stuff',
-      tech: 'Figma, Pen',
-      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9mlsnTLKktpLuPXUHeqEs48z6Yyc1DIbSQhZB',
-      htmlContent: UXNotes
     },
     // about me
     {
@@ -1045,7 +1060,16 @@ const UXNotes = `
             </div>
         </div>
       `
-    }
+    },
+    // UX Notes
+    {
+      id: 'project-g',
+      title: 'UX Notes',
+      description: 'I need notes to help me remember stuff',
+      tech: 'Figma, Pen',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9mlsnTLKktpLuPXUHeqEs48z6Yyc1DIbSQhZB',
+      htmlContent: UXNotes
+    },
   ]
 
   $: displayProjects = projects.length > 0 ? projects : defaultProjects

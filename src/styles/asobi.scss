@@ -6,11 +6,19 @@
   width: auto;
   height: calc(100vh - 12.5vw);
 
+  .asobiHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 680px;
+    height: 100%;
+  }
+
   h1 {
-    font-size: clamp(1.5rem, 10vw, 5rem);
+    // font-size: clamp(1.5rem, 10vw, 5rem);
     line-height: 0.9;
     font-weight: 700;
-    width: clamp(320px, 50vw, 440px);
+    width: 500px;
     color: var(--grey-100);
   }
   .designReasoning {

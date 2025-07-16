@@ -8,8 +8,30 @@
   overflow: hidden;
   gap: 2rem;
 
+  .AirNZHeader {
+    width: clamp(320px, 50vw, 800px);
+    height: 100%;
+    background-color: var(--airnz-blue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      // font-size: clamp(3rem, 10vw, 8rem);
+      width: 680px;
+
+      // color: var(--grey-100);
+      // line-height: 0.8;
+      // display: block;
+      // margin-bottom: auto;
+      z-index: 1;
+    }
+  }
+
   h1 {
-    font-size: clamp(2rem, 8vw, 10rem);
+    // font-size: clamp(2rem, 8vw, 10rem);
     width: clamp(320px, 50vw, 700px);
     font-weight: 600;
     color: var(--grey-100);

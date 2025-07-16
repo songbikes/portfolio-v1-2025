@@ -13,12 +13,19 @@
     height: 100%;
     background-color: var(--digihi-blue);
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     h1 {
-      font-size: clamp(3rem, 10vw, 8rem);
-      color: var(--grey-100);
-      line-height: 0.8;
-      display: block;
-      margin-bottom: auto;
+      // font-size: clamp(3rem, 10vw, 8rem);
+      width: 680px;
+
+      // color: var(--grey-100);
+      // line-height: 0.8;
+      // display: block;
+      // margin-bottom: auto;
       z-index: 1;
     }
 
