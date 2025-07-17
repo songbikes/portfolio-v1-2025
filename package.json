@@ -14,5 +14,8 @@
     "sass-embedded": "^1.89.2",
     "svelte": "^5.34.7",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.5.0"
   }
 }
