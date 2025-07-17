@@ -427,7 +427,7 @@ const UXNotes = `
                 <p>
                   Future Filter: 
                   <small>
-                    helps users to visualise the future self
+                    Helps users to visualise the future self
                   </small>
                   </p>
               </div>
