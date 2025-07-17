@@ -568,6 +568,7 @@ const UXNotes = `
           <h1>
             CREATING MOBILE & DESKTOP APP FROM A CONCEPT DESIGN THRU UX/UI
           </h1>
+          <p>- Contract (NDA Applies)</p>
         </div>
        
         <div class="second">
