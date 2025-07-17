@@ -421,13 +421,13 @@ const UXNotes = `
                 <p>
                   VibeSync:
                   <small>
-                    allows users to be like the person they admire
+                    Provides structured daily routine plans for users to follow along with their idols
                   </small>
                 </p>
                 <p>
                   Future Filter: 
                   <small>
-                    brings the future to users
+                    helps users to visualise the future self
                   </small>
                   </p>
               </div>
