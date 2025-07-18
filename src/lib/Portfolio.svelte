@@ -291,7 +291,7 @@ const UXNotes = `
                   </div>
                   <div class="timeline-content">
                     <h3>Founder / Interior Designer <span class="company">@ Asobi</span></h3>
-                    <p>Excelled in commercial, residential interior design projects. Click ASOBI to check out my interior design stuff there</p>
+                    <p>My little interior design business spans commercial, residential projects. Click ASOBI to check out my interior design stuff there</p>
                   </div>
                 </div>
               </div>
