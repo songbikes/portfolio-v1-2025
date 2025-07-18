@@ -100,7 +100,7 @@
   }
 
   .project-info {
-    padding: 0.5rem 1.5rem;
+    margin: clamp(0.1rem, 0.05vw, 0.25rem) clamp(0.25rem, 1vw, 1.5rem);
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -110,8 +110,7 @@
 
     h2 {
       display: block;
-      margin: 0 0 clamp(0.25rem, 1vw, 0.5rem) 0;
-      font-size: clamp(0.8rem, 1.5vw, 1.125rem);
+      font-size: clamp(0.425rem, 1.5vw, 1.125rem);
       color: var(--grey-100);
       font-weight: 600;
       font-family: Arial, Helvetica, sans-serif;
@@ -119,7 +118,7 @@
 
     .project-description {
       margin: 0 0 clamp(0.25rem, 1vw, 0.75rem) 0;
-      font-size: clamp(0.75rem, 1vw, 0.875rem);
+      font-size: clamp(0.25rem, 1vw, 0.875rem);
       color: var(--grey-600);
       flex: 1;
       line-height: 1.2;

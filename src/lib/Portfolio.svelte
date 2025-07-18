@@ -197,7 +197,7 @@ let selectedProjectId = null
     });
     currentProjectIndex = bestIndex;
   }
-// 產生每排最多4張
+
 const UXNotes = `
   <div class="UXSection">
     <div class="UXNotes">
@@ -213,6 +213,138 @@ const UXNotes = `
 
   // 範例專案資料 - 使用HTML內容以便完全自由編輯
   const defaultProjects = [
+    // about me
+    {
+      id: 'project-h',
+      title: 'About Me',
+      description: 'Hiya!',
+      tech: 'Pizza, Music, Burger, Pets',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9dNwpHYArmiAK2MEIR5Qq6aYf4O1Bx8SgscHW',
+      demoUrl: 'https://example.com',
+      githubUrl: 'https://github.com',
+      htmlContent: `
+        <div class="AboutMeSection">
+          <div class="resume-container">
+            <header class="resume-header">
+              <h1 class="name">Song-Yi Feng</h1>
+              <p class="title">Product Designer</p>
+              <a href="https://www.linkedin.com/in/songyifeng/" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+                <svg viewBox="0 0 24 24" class="linkedin-icon">
+                  <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
+                </svg>
+              </a>
+            </header>
+            
+            <section class="about-section">
+              <h2>About</h2>
+              <p class="about-text">Hi there! I'm a product designer who just shifted career from architecture to product design in mid 2024. Both careers focus on collaboration and listening and communication and creativity and usability and user-centric design. These skills make me proud of myself.</p><br/>
+              <p class="about-text">I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS mostly, pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset.</p><br/>
+              <p class="about-text">Otherwise, I know a few places for pizza and burgers. Contact me if you want me to share my food maps with you. And I am constantly working on a few side hustles, like digitHi listed on this website and another one about animals, trying to build some useful products! Cheers</p>
+            </section>
+            
+            <section class="experience-section">
+              <h2>Experience</h2>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">Aug.2024<br>Present</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Freelance <span class="company">@ my desk</span></h3>
+                    <p>Designed and built digiHi from scratch based on some conversation in a few startup events. Currently, I am building another app, and this portfolio website as well</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">May.2024<br>Aug.2024</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Contract UX/UI Designer <span class="company">@ Dacreed</span></h3>
+                    <p>Refactored information architecture and user flow and features of the Professional Development Platform. Redesigned the UI too, colour selections, layout and probably only the logo is untouched</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">Jan.2020 -<br>April.2024</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Architectural Technician <span class="company">@ Assemble</span></h3>
+                    <p>BC & RC architecture documentation and code compliance, experienced in both residential and commercial projects</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">Aug.2019 -<br>2021.May</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Assistant Tutor <span class="company">@ Unitec</span></h3>
+                    <p>Assisted architecture lecturers and students to be successful in and outside class</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item">
+                  <div class="timeline-date">
+                    <span class="date-range">2008 - 2017</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Founder / Interior Designer <span class="company">@ Asobi</span></h3>
+                    <p>Excelled in commercial, residential interior design projects. Click ASOBI to check out my interior design stuff there</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div class="tech-section">
+              <h2>I use</h2>
+              <div class="tech-icons">
+                <img class="figma" src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9n41tdTcD3RIOQ6ljPp0fUmZYFs5zEyhJoVCM" alt="Figma logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js logo" />
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9hdE5Y9PiTknVi2zXWZ1ByA6cbdDq4h537sHR" alt="Convex logo" />
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9bELy7aZTOgBp5SZ7jHEl8UzLMRaiD1WY9Cs3" alt="Tailwind CSS logo" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SCSS logo" />
+              </div>
+            </div>
+            
+            <section class="skills-section">
+              <h2>I love</h2>
+              <ul class="skills-list">
+                <li>Product Design</li>
+                <li>UX/UI Design</li>
+                <li>Team Collaboration</li>
+                <li>User Research</li>
+                <li>Usability Testing</li>
+                <li>Resolve Issues</li>
+                <li>Any Genuine Feedback</li>
+                <li>Push Boundaries</li>
+              </ul>
+            </section>  
+          </div>
+
+          <div class="aboutMeFooter">
+            <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
+
+            <video 
+              class="aboutMeVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
+              <source 
+                src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95SmFOOeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" 
+                type="video/mp4">
+            </video>
+
+            <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
+          </div>
+          
+          <div class="uxNotesWrapper">
+            <h2>UX Notes</h2>
+            <p>I write because I know my memory is fallible and there are too many terminologies to keep track of...</p>
+            ${UXNotes}
+          </div>
+
+        </div>
+      `
+    },
     // digihi
     {
       id: 'project-a',
@@ -940,137 +1072,16 @@ const UXNotes = `
         </div>
       `
     },
-    // about me
-    {
-      id: 'project-h',
-      title: 'About Me',
-      description: 'Hiya!',
-      tech: 'Pizza, Music, Burger, Pets',
-      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD',
-      demoUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
-      htmlContent: `
-        <div class="AboutMeSection">
-          <div class="resume-container">
-            <header class="resume-header">
-              <h1 class="name">Song-Yi Feng</h1>
-              <p class="title">Product Designer</p>
-              <a href="https://www.linkedin.com/in/songyifeng/" target="_blank" rel="noopener noreferrer" class="linkedin-link">
-                <svg viewBox="0 0 24 24" class="linkedin-icon">
-                  <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
-                </svg>
-              </a>
-            </header>
-            
-            <section class="about-section">
-              <h2>About</h2>
-              <p class="about-text">Hi there! I just shifted my career from architecture to product design in mid 2024. Both careers focus on collaboration and listening and communication and creativity and usability and user-centric design. These skills make me proud of myself.</p><br/>
-              <p class="about-text">I love using Figma to illustrate my ideas, and then prototyping by coding. I use Next.js, Convex, Tailwind, SCSS mostly, pretty green in the world of programming but comfortable enough with the help of AI and my persistent mindset.</p><br/>
-              <p class="about-text">Otherwise, I love pizza and burgers. Contact me if you want me to share my food maps with you. And I am constantly working on a few side hustles, like digitHi listed on this website and another one about animals, trying to build some useful products! Cheers</p>
-            </section>
-            
-            <section class="experience-section">
-              <h2>Experience</h2>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <div class="timeline-date">
-                    <span class="date-range">Aug.2024<br>Present</span>
-                  </div>
-                  <div class="timeline-content">
-                    <h3>Freelance <span class="company">@ my desk</span></h3>
-                    <p>Designed and built digiHi from scratch based on some conversation in a few startup events, and am building another app, and this portfolio website</p>
-                  </div>
-                </div>
-                
-                <div class="timeline-item">
-                  <div class="timeline-date">
-                    <span class="date-range">May.2024<br>Aug.2024</span>
-                  </div>
-                  <div class="timeline-content">
-                    <h3>Contract UX/UI Designer <span class="company">@ Dacreed</span></h3>
-                    <p>Refactored information architecture and user flow and features of the Professional Development Platform. Redesigned the UI, colour selections and layout</p>
-                  </div>
-                </div>
-                
-                <div class="timeline-item">
-                  <div class="timeline-date">
-                    <span class="date-range">Jan.2020 -<br>April.2024</span>
-                  </div>
-                  <div class="timeline-content">
-                    <h3>Architectural Technician <span class="company">@ Assemble</span></h3>
-                    <p>BC & RC architecture documentation and code compliance, experienced in both residential and commercial projects</p>
-                  </div>
-                </div>
-                
-                <div class="timeline-item">
-                  <div class="timeline-date">
-                    <span class="date-range">Aug.2019 -<br>2021.May</span>
-                  </div>
-                  <div class="timeline-content">
-                    <h3>Assistant Tutor <span class="company">@ Unitec</span></h3>
-                    <p>Assisted architecture lecturers and students to be successful in and outside class</p>
-                  </div>
-                </div>
-                
-                <div class="timeline-item">
-                  <div class="timeline-date">
-                    <span class="date-range">2008 - 2017</span>
-                  </div>
-                  <div class="timeline-content">
-                    <h3>Founder / Interior Designer <span class="company">@ Asobi</span></h3>
-                    <p>Excelled in commercial, residential interior design projects. Click ASOBI to check out my interior design stuff there</p>
-                  </div>
-                </div>
-              </div>
-            </section>
 
-            <div class="tech-section">
-              <h2>I use</h2>
-              <div class="tech-icons">
-                <img class="figma" src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9n41tdTcD3RIOQ6ljPp0fUmZYFs5zEyhJoVCM" alt="Figma logo" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js logo" />
-                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9hdE5Y9PiTknVi2zXWZ1ByA6cbdDq4h537sHR" alt="Convex logo" />
-                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9bELy7aZTOgBp5SZ7jHEl8UzLMRaiD1WY9Cs3" alt="Tailwind CSS logo" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SCSS logo" />
-              </div>
-            </div>
-            
-            <section class="skills-section">
-              <h2>I love</h2>
-              <ul class="skills-list">
-                <li>Product Design</li>
-                <li>UX/UI Design</li>
-                <li>Team Collaboration</li>
-                <li>Research</li>
-                <li>Usability Testing</li>
-              </ul>
-            </section>
-
-            </div>
-            <div class="aboutMeFooter">
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
-
-              <video 
-                class="aboutMeVideo" controls controlsList="nodownload nofullscreen noremoteplayback" muted loop>
-                <source 
-                  src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95SmFOOeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" 
-                  type="video/mp4">
-              </video>
-
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9PG6Jl2MEwKYURTVvWXpNklMISGh156nfABOD" alt="Profile Picture" class="pizza">
-            </div>
-        </div>
-      `
-    },
     // UX Notes
-    {
-      id: 'project-g',
-      title: 'UX Notes',
-      description: 'I need notes to help me remember stuff',
-      tech: 'Figma, Pen',
-      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9mlsnTLKktpLuPXUHeqEs48z6Yyc1DIbSQhZB',
-      htmlContent: UXNotes
-    },
+    // {
+    //   id: 'project-g',
+    //   title: 'UX Notes',
+    //   description: 'I need notes to help me remember stuff',
+    //   tech: 'Figma, Pen',
+    //   image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9mlsnTLKktpLuPXUHeqEs48z6Yyc1DIbSQhZB',
+    //   htmlContent: UXNotes
+    // },
   ]
 
   $: displayProjects = projects.length > 0 ? projects : defaultProjects

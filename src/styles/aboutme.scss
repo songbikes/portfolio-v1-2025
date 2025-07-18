@@ -1,5 +1,5 @@
 .AboutMeSection {
-  width: auto;
+  // width: auto;
   height: calc(100vh - 12.5vw);
   display: flex;
   flex-direction: column;
@@ -180,20 +180,21 @@
   color: var(--grey-400);
   margin: 0;
 }
+
 .aboutMeFooter {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
+  margin: 2rem 0;
   gap: 2rem;
-  width: 100%;
+  width: 1200px;
+  height: auto;
 }
 .aboutMeVideo {
   width: 100%;
   height: auto;
-  max-width: 700px;
   border-radius: 8px;
-  margin-top: 1rem;
+  margin: 1rem auto;
 }
 
 .aboutMeVideo::-webkit-media-controls-fullscreen-button {
@@ -234,4 +235,30 @@
     width: 26px;
     height: 26px;
   }
+}
+
+.uxNotesWrapper {
+  height: auto;
+  width: 100%;
+  h2,
+  p {
+    width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.UXNotes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  height: auto;
+  max-width: 1600px;
+  margin: 1rem auto;
+}
+
+.UXNotes img {
+  height: 320px;
+  width: 320px;
 }
