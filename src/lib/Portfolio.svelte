@@ -711,7 +711,7 @@ const UXNotes = `
           <p>- Contract (NDA Applies)</p>
           <ul class="whatHappened">
             <h3>What happened</h3>
-            <li>Task was to fit the desktop design they have developed into mobile devices while maintaining the features and functionality.</li>
+            <li>Tasked to fit the desktop design they have developed into mobile devices while maintaining the features and functionality.</li>
             <li>But I soon realised the features and functionality were not as easily transferable as I had hoped as well as the UIs.</li>
             <li>I started with putting everything they had into mobile viewport and running user research at the same time to understand user needs.</li>
             <li>User feedback taught me that I needed to simplify the interface and prioritize key features.</li>
