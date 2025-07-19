@@ -805,12 +805,22 @@ const UXNotes = `
         <div class="AirNZContainer">
           <div class="AirNZHeader">
             <h1>
-              UI & USER FLOW REVISION
+              MOBILE APP UI & USER FLOW REVISION
             </h1>
              <p>- EXERCISE</p>
+             <div class="WhatIDid">
+               <h3>What I Did</h3>
+               <p>I use this app frequently and always have some thoughts on that, so I decided to take a closer look at the user interface and user flow.</p>
+               <p>I start with analysing the current features and identifying user flow.</p>
+               <p>Analysis is based on my perspective, as a user, what I want to see and what confuses me.</p>
+               <p>Apart from that, I also played around with theming and styling to see how it feels in use.</p>
+             </div>
           </div>
           
-          <video class="AirNZVideo" controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
+          <video 
+            class="AirNZVideo" 
+            controls controlsList="nodownload nofullscreen noremoteplayback" 
+            autoplay muted loop>
             <source src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9kah9UDCh4TPYHUfIwknrimsoezySMpZ319d5" type="video/mp4"
             >
           </video>
@@ -1015,15 +1025,21 @@ const UXNotes = `
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF99oQaH7Fiso6r4wZNfEplMyUeb1vOa2LDnVxc',
       htmlContent: `
         <div class="trademeContanier">
-          <div class="kiwiBirdContainer">
-            <div class="titleContainer">
-              <h1>
-                ENABLING COMPARE LISTINGS
-              </h1>
-              <p>- EXERCISE</p>
-            </div>
 
-            
+          <div class="titleContainer">
+            <h1>
+              ENABLING COMPARE LISTINGS
+            </h1>
+            <p>- EXERCISE</p>
+            <div class="context">
+              <p>
+                This is a course exercise to improve the Trade Me platform by enabling users to compare listings.
+              </p>
+            </div>
+          </div>
+
+          <div class="kiwiBirdContainer">
+
             <div class="listingCards">
 
               <div class="textImgContainer">
@@ -1047,7 +1063,7 @@ const UXNotes = `
                 <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9upYyKhwt4jNavY6SPXCcoW0lknfLxR9Fw2Qp" alt="Trade Me listing card checked compare" loading="lazy" draggable="false">
               </div>
               
-              <div class="textImgContainer">
+              <div class="textImgContainer kiwibirdBG">
                 <p>A clickable kiwi bird pops up the page if selected more than 2 items</p>
                 <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9fF8kgFampb2Icui3Bo6thfyzgaNnRdUOxHW5" alt="Trade Me Kiwi Bird Compare Listing Button" loading="lazy" draggable="false" class="kiwibird"
                 >
