@@ -217,7 +217,7 @@ const UXNotes = `
     {
       id: 'project-h',
       title: 'About Me',
-      description: 'Hiya!',
+      description: 'Hiya! This is my portfolio website!',
       tech: 'Pizza, Music, Burger, Pets',
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9dNwpHYArmiAK2MEIR5Qq6aYf4O1Bx8SgscHW',
       demoUrl: 'https://example.com',
@@ -345,137 +345,7 @@ const UXNotes = `
         </div>
       `
     },
-    // digihi
-    {
-      id: 'project-a',
-      title: 'digiHi',
-      description: 'Event driven tech & startup platform',
-      tech: 'Figma, Next.js, Tailwind, Convex, Stripe, Clerk',
-      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9vi5kVcTHbjBL8eOS9FpXnM5CGJDVyqQkZfso',
-      demoUrl: 'https://digihi.io',
-      htmlContent: `
-        <div class="digihiContainer">
-          <div class="digihiHeader">
-            <h1><i>FROM A GOOGLE SHEETS TO A WEBSITE</i></h1>
-            <p>- SIDE PROJECT</p>
-            </div>
-          
-          <div class="intro">
-            <div class="context">
-              <h3>Story</h3>
-              <p>
-                After attending several tech and startup events in NZ, I found a spreadsheet on the internet. Interestingly, many rely on a Google Sheet to share events (as shown on the right), but its tabular format lacks filtering capabilities, is slow to update, and is not optimised for mobile browsing, significantly impacting efficiency and legibility.
-              </p>
-              <p>
-                So, the mission is to build a event website, and it must be very fun if I can build it and help them improve this event finding experience.
-              </p>
-            </div>
 
-            <div class="videoContext">
-              <video 
-                controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
-                <source 
-                  src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9tIYWbSdgGd3OZlcaJA0epkI8hHB9y1xC7rwM" 
-                  type="video/mp4"
-                >
-              </video>
-                  
-              <video 
-                controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
-                <source 
-                  src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9HIq2GK6nNL4jdyCfwVonh2kTOxib6tXvWlgs" 
-                  type="video/mp4"
-                >
-              </video>
-              <div class="textOverVideo">
-                <h1>
-                  Before
-                </h1>
-                <h1>
-                  After
-                </h1>
-              </div>
-            </div>
-
-            <div class="analysis">
-              <div class="context">
-                <h3>
-                 Key UI and Info
-                </h3>
-                <ul>
-                  <li>Responsiveness</li>
-                  <li>Date, Time, Location, Event Title and Organiser</li>
-                  <li>Filters</li>
-                  <li>Colours</li>
-                </ul>
-              </div>
-
-              <div class="analysisCard">
-                <p>Responsiveness</p>
-                <ul>
-                  <li>Dedicated event card width and horizontal scrolling making viewing on mobile easier and desktop easier with consistent browsing experience</li>	
-                </ul>
-              </div>
-
-              <div class="analysisCard">
-                <p>Key Info</p>
-                <ul>
-                  <li>Keeping key information such as date, time, location, event title and organiser in the card to make it easy for users to find events</li>	
-                </ul>
-              </div>
-              
-              <div class="analysisCard">
-                <p>Filters</p>
-                <ul>
-                  <li>Integrated filters and search bar to help users quickly find events and clean up the interface</li>	
-                </ul>
-              </div>
-              
-              <div class="analysisCard">
-                <p>Colours</p>
-                <ul>
-                  <li>Using blue to highlight the most important CTA buttons on the page</li>	
-                </ul>
-              </div>
-            </div>
-            
-            <div class="analysis lightTheme">
-              <div class="context">
-                <h3>
-                  Futre Directions
-                </h3>
-                <p>
-                  This has been my side project for a while as I re-built it a few times for my own learning purposes, and wanting to make sure its very reliable. Also I have been using it to learn new tools, such as Next.js, Tailwind CSS, Convex, Clerk, and Stripe. As well as improving my UX/UI skills. 
-                </p>
-                <p>
-                  I am still working on it and trying to make it better and more useful for the tech and startup community. I am about to bring this to people and discover opportunities to make this a real product by conducting interviews and research soon. And I have some rought thoughts about it showing on the right hand side.
-                </p>
-              </div>
-                            
-              <div class="analysisCard">
-                <p>Opportunities</p>
-                <ul>
-                  <li>Form a community</li>	
-                  <li>Leverage events to add features that let people connect easier and promote themselves</li>	
-                  <li>Minimum fees for all the features on digiHi as I will be likely the only one behind this platform</li>	
-                </ul>
-              </div>
-              
-              <div class="analysisCard">
-                <p>Thoughts</p>
-                <ul>
-                  <li>Over time I realise, this website a good-to-have but necessary</li>	
-                  <li></li>	
-                  <li>Minimum fees for all the features on digiHi as I am the only one</li>	
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        
-      `
-    },
     // macroactive
     {
       id: 'project-b',
@@ -485,161 +355,173 @@ const UXNotes = `
       image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9ZtNIvdEhcNbi3ptFv0UHqy6Lxa1hoC5B4fPm',
 
       htmlContent: `
-        <div class="temp-content">
-          <div class="contentCard">
-            <div class="textContent">
-              <h3>MacroActive Design Brief</h3>
-              <p class="greyText">
-                Design a next-generation health & fitness app that redefines member retention and engagement by harnessing the power of AI, predictive analytics, personalisation, and emerging technologies.
-              </p>
-              <p class="greyText">
-                <strong>Think beyond existing platforms</strong> like MacroActive, MyFitnessPal, Fitbit, Strava, and Freeletics—envision something futuristic, innovative, and disruptive.
-              </p>
-              <p class="greyText">
-                Consider incorporating features such as AI coaches, real-time biometrics, gamification, AR/VR experiences, or habit-forming psychology to shape the fitness journey over the next decade. Scope & Requirements: - <strong>User Retention & Engagement</strong> - AI & Personalization - Seamless User Experience - Innovation - Visual Appeal Deliverables
-              </p>
-            </div>
-          </div>
-          <div class="contentCard">
-            <div class="textContent">
-              <h3>Deliverables</h3>
-              <ol>
-                <li class="greyText">
-                  <small><strong>Wireframes & High-Fidelity UI Screens</strong> (in Figma or your preferred design tool)</small>
-                  </li>
-                  <li class="greyText">
-                    <small><strong>User Flow & Journey Mapping</strong> (highlighting engagement loops & retention strategies)</small> 
-                  </li>
-                  <li class="greyText">
-                    <small><strong>Key Retention Features</strong> (e.g., AI recommendations, gamification, habit tracking)</small>
-                  </li>
-                  <li class="greyText">
-                    <small>A brief <strong>design rationale</strong> explaining how your UX choices support long-term engagement.</small>
-                  </li>
-                  <li class="greyText">
-                    <small>Bonus (Optional, if time permits): An interactive prototype demonstrating your proposed engagement features.</small>
-                  </li>
-                </ol>
-              <h3>User Groups</h3>
-              <div class="userGroups">
-                <div class="userGroup">
-                  <p>
-                    Admin User <span class="greyText">(Creator)</span>
-                  </p>
-                  <small>Entrepreneurs and Coaches, the admin role of the app</small>
-                </div>
-                <div class="userGroup">
-                  <p>
-                    Normal User <span class="greyText">(Follower)</span>
-                  </p>
-                  <small>The users who use the app, and/or follow the creator on social media</small>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="container">
           
           <div class="h1Card">
             <h1>
-              DESIGN CHALLENGE 
               <i>
                 <strong>
                   RETENTION & ENGAGEMENT
                 </strong>
               </i>
             </h1>
+            <p>- MACROACTIVE DESIGN CHALLENGE</p> 
+ 
+            <h3>Proposed Ideas</h3>
+            <div class="proposedIdeas">
+              <p>
+                <strong>VibeSync:</strong>
+                <i>
+                  Provides structured daily routine plans for users to follow along with their idols
+                </i>
+              </p>
+              <p>
+                <strong>Future Filter:</strong> 
+                <i>
+                  Helps users to visualise the future self
+                </i>
+              </p>
+              <p>
+                <strong>Feedback Evaluation:</strong> 
+                <i>
+                  Segements Users to determine the most engaging features
+                </i>
+              </p>
+            </div>
+          </div>
+
+          <div class="cardGroup">
             <div class="contentCard">
               <div class="textContent">
-                <h3>Proposed Ideas</h3>
-                <p>
-                  VibeSync:
-                  <small>
-                    Provides structured daily routine plans for users to follow along with their idols
-                  </small>
+                <h3>MacroActive Design Brief</h3>
+                <p class="greyText">
+                  Design a next-generation health & fitness app that redefines member retention and engagement by harnessing the power of AI, predictive analytics, personalisation, and emerging technologies.
                 </p>
-                <p>
-                  Future Filter: 
-                  <small>
-                    Helps users to visualise the future self
-                  </small>
-                  </p>
+                <p class="greyText">
+                  <strong>Think beyond existing platforms</strong> like MacroActive, MyFitnessPal, Fitbit, Strava, and Freeletics—envision something futuristic, innovative, and disruptive.
+                </p>
+                <p class="greyText">
+                  Consider incorporating features such as AI coaches, real-time biometrics, gamification, AR/VR experiences, or habit-forming psychology to shape the fitness journey over the next decade. Scope & Requirements: - <strong>User Retention & Engagement</strong> - AI & Personalization - Seamless User Experience - Innovation - Visual Appeal Deliverables
+                </p>
+              </div>
+            </div>
+            <div class="contentCard">
+              <div class="textContent">
+                <h3>Deliverables</h3>
+                <ol>
+                  <li class="greyText">
+                    <small><strong>Wireframes & High-Fidelity UI Screens</strong> (in Figma or your preferred design tool)</small>
+                    </li>
+                    <li class="greyText">
+                      <small><strong>User Flow & Journey Mapping</strong> (highlighting engagement loops & retention strategies)</small> 
+                    </li>
+                    <li class="greyText">
+                      <small><strong>Key Retention Features</strong> (e.g., AI recommendations, gamification, habit tracking)</small>
+                    </li>
+                    <li class="greyText">
+                      <small>A brief <strong>design rationale</strong> explaining how your UX choices support long-term engagement.</small>
+                    </li>
+                    <li class="greyText">
+                      <small>Bonus (Optional, if time permits): An interactive prototype demonstrating your proposed engagement features.</small>
+                    </li>
+                  </ol>
+                <h3>User Groups</h3>
+                <div class="userGroups">
+                  <div class="userGroup">
+                    <p>
+                      Admin User <span class="greyText">(Creator)</span>
+                    </p>
+                    <small>Entrepreneurs and Coaches, the admin role of the app</small>
+                  </div>
+                  <div class="userGroup">
+                    <p>
+                      Normal User <span class="greyText">(Follower)</span>
+                    </p>
+                    <small>The users who use the app, and/or follow the creator on social media</small>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="contentCard">
-            <div class="textContent">
-              <h3>Information Architecture</h3>
-              <p>
-                VibeSync (Creator)
-              </p>
-              <small>
-                1.Create/Edit Routine (AI Suggestions or Manual)
-                2. Select the Legend routines from MacroActive (Charge by number?)
-                3. Publish & Share
-                4. See Follower Stats & Feedback Summary
-                5. Activity Analytics
-              </small>
-              <p>
-                VibeSync (Follower)
-              </p>
-              <small>
-                1. Explore: Creators & Legends (e.g., Kobe, Shohei Ohtani)
-                2. Subscribe / Follow
-                3. Daily Routine Timeline (with reminders)
-                4. Completion Tracker
-              </small>
+          <div class="cardGroup">
+            <div class="contentCard">
+              <div class="textContent">
+                <h3>Information Architecture</h3>
+                <p>
+                  VibeSync (Creator)
+                </p>
+                <small>
+                  1.Create/Edit Routine (AI Suggestions or Manual)
+                  2. Select the Legend routines from MacroActive (Charge by number?)
+                  3. Publish & Share
+                  4. See Follower Stats & Feedback Summary
+                  5. Activity Analytics
+                </small>
+                <p>
+                  VibeSync (Follower)
+                </p>
+                <small>
+                  1. Explore: Creators & Legends (e.g., Kobe, Shohei Ohtani)
+                  2. Subscribe / Follow
+                  3. Daily Routine Timeline (with reminders)
+                  4. Completion Tracker
+                </small>
+              
+                <p>
+                  VibeSync
+                </p>
+                <small>
+                  1. Selected a routine plan
+                  2. Agree with camera access
+                  3. Time Slider: Select time point weekly increment
+                </small>
+              </div>
+            </div>
+          </div>
+          
+          <div class="cardGroup">
+            <div class="contentCard">
+              <div class="textContent">
+                <p>Admin User (Creator) Landing page</p>
+                <small>Creator/admin starts creating a VibeSync plan</small>
+              
+              </div>
+              <div class="imageContainer">
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9Ry6GXcNgs74InDt5Xxh3qfzVKEcPeOdMwuRi" alt="Air NZ Design" loading="lazy" draggable="false"/>
+              </div>
+            </div>
+  
+            <div class="contentCard">
+              <div class="textContent">
+                <p>Ways to create plans</p>
+                <small>AI, manually or select Legend mode (redirect user to MacroActive portal)</small>
+              </div>
+              <div class="imageContainer">
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9jOWT0H6dbmNKiUAoW8gF4D6QLTZR3qeOE1la" alt="Air NZ Design" loading="lazy" draggable="false"/>
+              </div>
+            </div>
             
-              <p>
-                VibeSync
-              </p>
-              <small>
-                1. Selected a routine plan
-                2. Agree with camera access
-                3. Time Slider: Select time point weekly increment
-              </small>
+            <div class="contentCard">
+              <div class="textContent">
+                <p>AI Plan Creating page</p>
+                <small>If created by AI, view and edit the results</small>
+              </div>
+              <div class="imageContainer">
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9bivu3p7ZTOgBp5SZ7jHEl8UzLMRaiD1WY9Cs" alt="Air NZ Design" loading="lazy" draggable="false"/>
+              </div>
             </div>
-          </div>
-          
-          <div class="contentCard">
-            <div class="textContent">
-              <p>Admin User (Creator) Landing page</p>
-              <small>Creator/admin starts creating a VibeSync plan</small>
             
-            </div>
-            <div class="imageContainer">
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9Ry6GXcNgs74InDt5Xxh3qfzVKEcPeOdMwuRi" alt="Air NZ Design" loading="lazy" draggable="false"/>
-            </div>
-          </div>
-
-          <div class="contentCard">
-            <div class="textContent">
-              <p>Ways to create plans</p>
-              <small>AI, manually or select Legend mode (redirect user to MacroActive portal)</small>
-            </div>
-            <div class="imageContainer">
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9jOWT0H6dbmNKiUAoW8gF4D6QLTZR3qeOE1la" alt="Air NZ Design" loading="lazy" draggable="false"/>
-            </div>
-          </div>
-          
-          <div class="contentCard">
-            <div class="textContent">
-              <p>AI Plan Creating page</p>
-              <small>If created by AI, view and edit the results</small>
-            </div>
-            <div class="imageContainer">
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9bivu3p7ZTOgBp5SZ7jHEl8UzLMRaiD1WY9Cs" alt="Air NZ Design" loading="lazy" draggable="false"/>
-            </div>
-          </div>
-          
-          <div class="contentCard">
-            <div class="textContent">
-              <p>Manually Creating page</p>
-              <small>Click Publish → appears in follower's VibeSync page</small>
-            </div>
-            <div class="imageContainer">
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95FDTHDeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" alt="Air NZ Design" loading="lazy" draggable="false"/>
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9D1s1stQFMXBTu8tkExerzApo6jRInSh2JaU9" alt="Air NZ Design" loading="lazy" draggable="false"/>
-              <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9nRgB3E3cD3RIOQ6ljPp0fUmZYFs5zEyhJoVC" alt="Air NZ Design" loading="lazy" draggable="false"/>
+            <div class="contentCard">
+              <div class="textContent">
+                <p>Manually Creating page</p>
+                <small>Click Publish → appears in follower's VibeSync page</small>
+              </div>
+              <div class="imageContainer">
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF95FDTHDeoRNUDBwuAnqspY6J0jyXVIb9aOdPe" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9D1s1stQFMXBTu8tkExerzApo6jRInSh2JaU9" alt="Air NZ Design" loading="lazy" draggable="false"/>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9nRgB3E3cD3RIOQ6ljPp0fUmZYFs5zEyhJoVC" alt="Air NZ Design" loading="lazy" draggable="false"/>
+              </div>
             </div>
           </div>
           
@@ -685,6 +567,132 @@ const UXNotes = `
         </div>
       `
     },
+    // digihi
+    {
+      id: 'project-a',
+      title: 'digiHi',
+      description: 'Event driven tech & startup platform',
+      tech: 'Figma, Next.js, Tailwind, Convex, Stripe, Clerk',
+      image: 'https://xb8rnillf1.ufs.sh/f/697Z538ULBF9vi5kVcTHbjBL8eOS9FpXnM5CGJDVyqQkZfso',
+      demoUrl: 'https://digihi.io',
+      htmlContent: `
+        <div class="mainContainer digihi">
+          <div class="topicBlock">
+            <h1><i>FINDING EVENTS - FROM A GOOGLE SHEETS TO A WEBSITE</i></h1>
+            <p>- SIDE PROJECT</p>
+
+            <div class="context">
+              <h3>Why am I building this?</h3>
+              <p>
+                After attending several tech and startup events in NZ, I found a spreadsheet on the internet. Interestingly, many rely on a Google Sheet to share events (as shown on the right), but its tabular format lacks filtering capabilities, is slow to update, and is not optimised for mobile browsing, significantly impacting efficiency and legibility.
+              </p>
+              <p>
+                So, the mission is to build a event website, and it must be very fun if I can build it and help them improve this event finding experience.
+              </p>
+            </div>
+          </div>
+          
+          <div class="intro">
+
+            <div class="videoContext">
+              <video 
+                controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
+                <source 
+                  src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9tIYWbSdgGd3OZlcaJA0epkI8hHB9y1xC7rwM" 
+                  type="video/mp4"
+                >
+              </video>
+                  
+              <video 
+                controls controlsList="nodownload nofullscreen noremoteplayback" autoplay muted loop>
+                <source 
+                  src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9HIq2GK6nNL4jdyCfwVonh2kTOxib6tXvWlgs" 
+                  type="video/mp4"
+                >
+              </video>
+              <div class="textOverVideo">
+                <h1>
+                  Before
+                </h1>
+                <h1>
+                  After
+                </h1>
+              </div>
+            </div>
+
+            <div class="analysis">
+              <div class="context centre">
+                <h2>
+                 Key UI and Info
+                </h2>
+              </div>
+
+              <div class="analysisCard">
+                <p>Responsiveness</p>
+                <ul>
+                  <li>Dedicated event card width and horizontal scrolling making viewing on mobile easier and desktop easier with consistent browsing experience</li>	
+                </ul>
+              </div>
+
+              <div class="analysisCard">
+                <p>Key Info</p>
+                <ul>
+                  <li>Keeping key information such as date, time, location, event title and organiser in the card to make it easy for users to find events</li>	
+                </ul>
+              </div>
+              
+              <div class="analysisCard">
+                <p>Filters</p>
+                <ul>
+                  <li>Integrated filters and search bar to help users quickly find events and clean up the interface</li>	
+                </ul>
+              </div>
+              
+              <div class="analysisCard">
+                <p>Colours</p>
+                <ul>
+                  <li>Using blue to highlight the most important CTA buttons on the page</li>	
+                </ul>
+              </div>
+            </div>
+            
+            <div class="analysis">
+              <div class="context centre">
+                <h3>
+                  Futre Directions
+                </h3>
+                <p>
+                  This has been my side project for a while as I re-built it a few times for my own learning purposes, and wanting to make sure its very reliable. Also I have been using it to learn new tools, such as Next.js, Tailwind CSS, Convex, Clerk, and Stripe. As well as improving my UX/UI skills. 
+                </p>
+                <p>
+                  I am still working on it and trying to make it better and more useful for the tech and startup community. I am about to bring this to people and discover opportunities to make this a real product by conducting interviews and research soon. And I have some rought thoughts about it showing on the right hand side.
+                </p>
+              </div>
+                            
+              <div class="analysisCard">
+                <p>Opportunities</p>
+                <ul>
+                  <li>Form a community</li>	
+                  <li>Leverage events to add features that let people connect easier and promote themselves</li>	
+                  <li>Minimum fees for all the features on digiHi as I will be likely the only one behind this platform</li>	
+                </ul>
+              </div>
+              
+              <div class="analysisCard">
+                <p>Thoughts</p>
+                <ul>
+                  <li>Over time I realise, this website a good-to-have but necessary</li>	
+                  <li></li>	
+                  <li>Minimum fees for all the features on digiHi as I am the only one</li>	
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+      `
+    },
     // dacreed
     {
       id: 'project-c',
@@ -698,9 +706,17 @@ const UXNotes = `
         
         <div class="first">
           <h1>
-            CREATING MOBILE & DESKTOP APP FROM A CONCEPT DESIGN THRU UX/UI
+            CREATING MOBILE & DESKTOP APP FROM A CONCEPT DESIGN THRU UX/UI PROCESS
           </h1>
           <p>- Contract (NDA Applies)</p>
+          <ul class="whatHappened">
+            <h3>What happened</h3>
+            <li>Task was to fit the desktop design they have developed into mobile devices while maintaining the features and functionality.</li>
+            <li>But I soon realised the features and functionality were not as easily transferable as I had hoped as well as the UIs.</li>
+            <li>I started with putting everything they had into mobile viewport and running user research at the same time to understand user needs.</li>
+            <li>User feedback taught me that I needed to simplify the interface and prioritize key features.</li>
+            <li>So I simplified, organised and revised the info architecture and user flow and all the UI elements accordingly.</li>
+          </ul>
         </div>
        
         <div class="second">
