@@ -51,6 +51,7 @@
     transform-origin: bottom center; /* 從底部中心開始變化 */
     box-sizing: border-box;
     background: var(--grey-900);
+    overflow: hidden;
     filter: 
       grayscale(0.8) 
       saturate(0.2);
