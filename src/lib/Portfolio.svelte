@@ -630,7 +630,7 @@ const UXNotes = `
               <div class="analysisCard">
                 <p>Responsiveness</p>
                 <ul>
-                  <li>Dedicated event card width and horizontal scrolling making viewing on mobile easier and desktop easier with consistent browsing experience</li>	
+                  <li>The width of the event card & the horizontal scrolling are made for both desktop and mobile devices aiming for a consistent browsing experience</li>	
                 </ul>
               </div>
 
@@ -644,15 +644,36 @@ const UXNotes = `
               <div class="analysisCard">
                 <p>Filters</p>
                 <ul>
-                  <li>Integrated filters and search bar to help users quickly find events and clean up the interface</li>	
+                  <li>Integrated filters and search bar to help users quickly find events and clean up the interface and month-picker as another filter tool for this occasion</li>	
                 </ul>
               </div>
               
               <div class="analysisCard">
                 <p>Colours</p>
                 <ul>
-                  <li>Using blue to highlight the most important CTA buttons on the page</li>	
+                  <li>Using an accent color, blue, to highlight the most important CTA buttons on the page. Others are kept neutral to avoid distraction.</li>	
                 </ul>
+              </div>
+            </div>
+            
+            <div class="analysis">
+              <div class="context centre">
+                <h3>
+                  Logo & Branding
+                </h3>
+                <p>
+                  I've been always big on naming and logo, and I came across this name "digiHi" which is a play on "digital" and "hi" as in greeting. It is short, memorable, and reflects the digital nature of the platform. The logo is designed to be pixelated, with a friendly and digital vibe. Orinally, it was only tech event NZ, but I can't help playing the the name and logo.
+                </p>
+              </div>
+                            
+              <div class="analysisCard">
+                <p>Icon Logo</p>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9KNDPXuxJhF3fUW27CsNKIa1pT0RLuxEbt4nm" alt="icon logo of digihi" oncontextmenu="return false"/>
+              </div>
+              
+              <div class="analysisCard">
+                <p>Text Logo</p>
+                <img src="https://xb8rnillf1.ufs.sh/f/697Z538ULBF9KAOI6bxJhF3fUW27CsNKIa1pT0RLuxEbt4nm" alt="text logo of digihi" oncontextmenu="return false"/>
               </div>
             </div>
             
@@ -665,7 +686,7 @@ const UXNotes = `
                   This has been my side project for a while as I re-built it a few times for my own learning purposes, and wanting to make sure its very reliable. Also I have been using it to learn new tools, such as Next.js, Tailwind CSS, Convex, Clerk, and Stripe. As well as improving my UX/UI skills. 
                 </p>
                 <p>
-                  I am still working on it and trying to make it better and more useful for the tech and startup community. I am about to bring this to people and discover opportunities to make this a real product by conducting interviews and research soon. And I have some rought thoughts about it showing on the right hand side.
+                  I am still working on it, trying to make it better, learning more coding from it, and making it more useful for the tech and startup community if possible. And then I will bring this to people and discover opportunities to make this a real product by conducting interviews and research soon.
                 </p>
               </div>
                             
@@ -679,11 +700,13 @@ const UXNotes = `
               </div>
               
               <div class="analysisCard">
-                <p>Thoughts</p>
+                <p>Learning</p>
                 <ul>
-                  <li>Over time I realise, this website a good-to-have but necessary</li>	
-                  <li></li>	
-                  <li>Minimum fees for all the features on digiHi as I am the only one</li>	
+                  <li>Building it with React Native & Expo</li>	
+                  <li>Using Nativewind, Unistyle, Tamagui, or other UI libraries</li>	
+                  <li>Using TanStack Query for server state management</li>	
+                  <li>Using Zustand for global state management</li>
+                  <li>Sentry, RN Testing, Expo EAS, etc...</li>
                 </ul>
               </div>
             </div>

@@ -112,6 +112,17 @@
       flex-direction: column;
       padding: 0 1rem;
 
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        user-select: none;
+      }
+
+      p {
+        text-align: left;
+      }
+
       .analysisCard {
         display: flex;
         flex-direction: column;
@@ -130,7 +141,7 @@
         }
 
         p {
-          text-align: center;
+          text-align: left;
           font-size: 1.2rem;
           font-weight: 500;
         }
