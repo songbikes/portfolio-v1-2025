@@ -247,7 +247,7 @@ const UXNotes = `
               <div class="timeline">
                 <div class="timeline-item">
                   <div class="timeline-date">
-                    <span class="date-range">Aug.2024<br>Present</span>
+                    <span class="date-range">Sep.2024<br>Present</span>
                   </div>
                   <div class="timeline-content">
                     <h3>Freelance <span class="company">@ my desk</span></h3>
