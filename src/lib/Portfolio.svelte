@@ -731,7 +731,7 @@ const UXNotes = `
           <h1>
             CREATING MOBILE & DESKTOP APP FROM A CONCEPT DESIGN THRU UX/UI PROCESS
           </h1>
-          <p>- Contract (NDA Applies)</p>
+          <p>- Contract (NDA Applies, hence can't reveal much)</p>
           <ul class="whatHappened">
             <h3>What happened</h3>
             <li>Tasked to fit the desktop design they have developed into mobile devices while maintaining the features and functionality.</li>
