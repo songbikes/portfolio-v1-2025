@@ -1,7 +1,7 @@
 .asobiContainer {
   display: flex;
   align-items: flex-start;
-  background-color: black;
+  background-color: var(--grey-900);
   position: relative;
   width: auto;
   height: calc(100vh - 12.5vw);
@@ -31,6 +31,14 @@
     justify-content: center;
     width: clamp(500px, 50vw, 690px);
     align-items: center;
+    background-color: var(--grey-900);
+    transition: all 0.3s ease-in-out;
+
+    filter: brightness(1);
+
+    &:hover {
+      filter: brightness(0.9);
+    }
 
     .designReasoningContent {
       max-width: 320px;
