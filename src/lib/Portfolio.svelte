@@ -766,13 +766,14 @@ const UXNotes = `
       <div class="asobiContainer">
         <div class="asobiHeader">
           <h1>
-            ASOBI WAS MY LITTLE INTERIOR DESIGN COMPANY REPRESENTS SPATIAL WORKS
+            ASOBI WAS MY LITTLE INTERIOR DESIGN COMPANY
           </h1>
+          <p>- PORTFOLIO WEBSITE</p>
         </div>
         <div class="designReasoning">
           <div class="designReasoningContent">
             <h2>Design Objective</h2>
-            <p>The mission is to figure out a way to display my works and the content doesn't seem to be too little. Because I didn't organise my photos very well and am not good at taking photos hence there are not many facinating nor heaps of photos to illustrate an image showing I am a cool designer, I have a great business. Responsiveness design is another key consideraion and using my preferred dark theme making it easier with my eyes same as 99% of my own stuff.</p>
+            <p>The mission is to figure out a way to display my works and the content doesn't seem to be too little because I didn't take enough good photos of my works. Responsiveness design is another key consideraion and using my preferred dark theme making it easier with my eyes same as 99% of my own stuff. Leaving people my design sense is also important. These are the primary goals I want thie website to achieve.</p>
             <p>So I decided to centralise everything and leave a huge white space and have a special nav panel on the bottom right corner giving navigation a bit of fun</p>
             <a href="https://asobi.tw" target="_blank" rel="noopener noreferrer">
               <button class="viewWebsiteButton">Visit Website</button>

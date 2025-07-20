@@ -8,10 +8,13 @@
 
   .asobiHeader {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    width: 680px;
+    width: clamp(320px, 50vw, 800px);
     height: 100%;
+    padding: 0 1rem;
   }
 
   h1 {
