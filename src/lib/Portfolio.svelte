@@ -345,7 +345,6 @@ const UXNotes = `
         </div>
       `
     },
-
     // macroactive
     {
       id: 'project-b',
@@ -662,7 +661,7 @@ const UXNotes = `
                   Logo & Branding
                 </h3>
                 <p>
-                  I've been always big on naming and logo, and I came across this name "digiHi" which is a play on "digital" and "hi" as in greeting. It is short, memorable, and reflects the digital nature of the platform. The logo is designed to be pixelated, with a friendly and digital vibe. Orinally, it was only tech event NZ, but I can't help playing the the name and logo.
+                  I've been always big on naming and logo, and I came across this name "digiHi" which is a play on "digital" and "hi" as in greeting. It is short, memorable, and reflects the digital nature of the platform. So I also pixelated the logo, smoothed out the corners for a friendly and digital vibe.
                 </p>
               </div>
                             
